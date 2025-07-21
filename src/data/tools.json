@@ -1,0 +1,4502 @@
+{
+  "T1": {
+    "id": "T1",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN9COBSCJJKW",
+    "calibrationDueDate": "2025-08-15",
+    "assignedTo": "E4829",
+    "assignedOn": "2025-10-30"
+  },
+  "T2": {
+    "id": "T2",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNFG21VBQYOB",
+    "calibrationDueDate": "2025-09-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T3": {
+    "id": "T3",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNGN5TYDFUZH",
+    "calibrationDueDate": "2025-10-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T4": {
+    "id": "T4",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNEDP2EDBSZI",
+    "calibrationDueDate": "2025-06-09",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T5": {
+    "id": "T5",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNUJ1FY3KRKM",
+    "calibrationDueDate": "2025-08-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T6": {
+    "id": "T6",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNFWVI5CUQPC",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": "E4545",
+    "assignedOn": "2025-06-10"
+  },
+  "T7": {
+    "id": "T7",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNF0Y9KE62LG",
+    "calibrationDueDate": "2025-11-24",
+    "assignedTo": "E4537",
+    "assignedOn": "2025-11-26"
+  },
+  "T8": {
+    "id": "T8",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNPH95WGJY2E",
+    "calibrationDueDate": "2025-06-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T9": {
+    "id": "T9",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNVFCZPJTIWR",
+    "calibrationDueDate": "2025-10-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T10": {
+    "id": "T10",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNDM9NVQGYXI",
+    "calibrationDueDate": "2025-09-22",
+    "assignedTo": "E5589",
+    "assignedOn": "2025-08-09"
+  },
+  "T11": {
+    "id": "T11",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNT0NLFOLSGV",
+    "calibrationDueDate": "2025-11-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T12": {
+    "id": "T12",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNAKYP7BB3WL",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": "E4883",
+    "assignedOn": "2025-08-28"
+  },
+  "T13": {
+    "id": "T13",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNM3GXWMQKW2",
+    "calibrationDueDate": "2025-10-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T14": {
+    "id": "T14",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNCZKD7CHMUH",
+    "calibrationDueDate": "2025-06-26",
+    "assignedTo": "E3349",
+    "assignedOn": "2025-11-11"
+  },
+  "T15": {
+    "id": "T15",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNYRSKJ7B8YX",
+    "calibrationDueDate": "2025-07-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T16": {
+    "id": "T16",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNZPNPR3C7KO",
+    "calibrationDueDate": "2025-09-10",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T17": {
+    "id": "T17",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNRZPTKM7NWO",
+    "calibrationDueDate": "2025-10-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T18": {
+    "id": "T18",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN6UN9VIH36G",
+    "calibrationDueDate": "2025-10-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T19": {
+    "id": "T19",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNSXM9PJOAOI",
+    "calibrationDueDate": "2025-08-15",
+    "assignedTo": "E5906",
+    "assignedOn": "2025-08-27"
+  },
+  "T20": {
+    "id": "T20",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNZDEJROPEUT",
+    "calibrationDueDate": "2025-11-15",
+    "assignedTo": "E4883",
+    "assignedOn": "2025-10-21"
+  },
+  "T21": {
+    "id": "T21",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNPCEGIGDKML",
+    "calibrationDueDate": "2025-06-20",
+    "assignedTo": "E2713",
+    "assignedOn": "2025-09-09"
+  },
+  "T22": {
+    "id": "T22",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNE8NSBOFEWY",
+    "calibrationDueDate": "2025-09-12",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T23": {
+    "id": "T23",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNXBOIASWCA6",
+    "calibrationDueDate": "2025-08-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T24": {
+    "id": "T24",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNTNG1PJXRBP",
+    "calibrationDueDate": "2025-10-20",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T25": {
+    "id": "T25",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNOIGTEIYPVU",
+    "calibrationDueDate": "2025-05-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T26": {
+    "id": "T26",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNTYVQCGRBP3",
+    "calibrationDueDate": "2025-11-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T27": {
+    "id": "T27",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNXHJAWVKCP3",
+    "calibrationDueDate": "2025-06-15",
+    "assignedTo": "E5538",
+    "assignedOn": "2025-11-05"
+  },
+  "T28": {
+    "id": "T28",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNP1TRQFQVXG",
+    "calibrationDueDate": "2025-06-11",
+    "assignedTo": "E5645",
+    "assignedOn": "2025-11-17"
+  },
+  "T29": {
+    "id": "T29",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN5O1YCAFI6S",
+    "calibrationDueDate": "2025-06-12",
+    "assignedTo": "E5084",
+    "assignedOn": "2025-11-26"
+  },
+  "T30": {
+    "id": "T30",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNZNK7JIACQU",
+    "calibrationDueDate": "2025-07-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T31": {
+    "id": "T31",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNX6UI9TWOYH",
+    "calibrationDueDate": "2025-08-01",
+    "assignedTo": "E4795",
+    "assignedOn": "2025-08-01"
+  },
+  "T32": {
+    "id": "T32",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNMIZPSCLESW",
+    "calibrationDueDate": "2025-09-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T33": {
+    "id": "T33",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNZVWJ57UNP6",
+    "calibrationDueDate": "2025-10-02",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T34": {
+    "id": "T34",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNNPXH5GEU8E",
+    "calibrationDueDate": "2025-12-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T35": {
+    "id": "T35",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNU3LUIUMYFB",
+    "calibrationDueDate": "2025-10-15",
+    "assignedTo": "E4872",
+    "assignedOn": "2025-10-01"
+  },
+  "T36": {
+    "id": "T36",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNR0GIYJJTPE",
+    "calibrationDueDate": "2025-07-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T37": {
+    "id": "T37",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNEUQOW7LQ2V",
+    "calibrationDueDate": "2025-07-07",
+    "assignedTo": "E5829",
+    "assignedOn": "2025-11-08"
+  },
+  "T38": {
+    "id": "T38",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNTG1Q0SFVCP",
+    "calibrationDueDate": "2025-07-18",
+    "assignedTo": "E5391",
+    "assignedOn": "2025-09-03"
+  },
+  "T39": {
+    "id": "T39",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNO0BDWUD31M",
+    "calibrationDueDate": "2025-11-02",
+    "assignedTo": "E4854",
+    "assignedOn": "2025-06-19"
+  },
+  "T40": {
+    "id": "T40",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNPPQIYR0HWX",
+    "calibrationDueDate": "2025-09-20",
+    "assignedTo": "E5759",
+    "assignedOn": "2025-08-22"
+  },
+  "T41": {
+    "id": "T41",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SN0NI5EDDARG",
+    "calibrationDueDate": "2025-06-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T42": {
+    "id": "T42",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNGZUCG15O9O",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": "E4656",
+    "assignedOn": "2025-07-04"
+  },
+  "T43": {
+    "id": "T43",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNZTDBZD30HQ",
+    "calibrationDueDate": "2025-09-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T44": {
+    "id": "T44",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNJDWIGICIQW",
+    "calibrationDueDate": "2025-07-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T45": {
+    "id": "T45",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNHQIFOQ52I8",
+    "calibrationDueDate": "2025-05-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T46": {
+    "id": "T46",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNZH7Q6TKVPZ",
+    "calibrationDueDate": "2025-11-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T47": {
+    "id": "T47",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SN9QNSGE50C2",
+    "calibrationDueDate": "2025-09-09",
+    "assignedTo": "E5141",
+    "assignedOn": "2025-07-09"
+  },
+  "T48": {
+    "id": "T48",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNPATR5H7MJE",
+    "calibrationDueDate": "2025-09-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T49": {
+    "id": "T49",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNP11K9UWTHN",
+    "calibrationDueDate": "2025-08-21",
+    "assignedTo": "E4692",
+    "assignedOn": "2025-08-03"
+  },
+  "T50": {
+    "id": "T50",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNVLI8BZDISB",
+    "calibrationDueDate": "2025-07-26",
+    "assignedTo": "E5274",
+    "assignedOn": "2025-06-20"
+  },
+  "T51": {
+    "id": "T51",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNRNATNXHZT0",
+    "calibrationDueDate": "2025-10-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T52": {
+    "id": "T52",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNSUVZHM4NVJ",
+    "calibrationDueDate": "2025-11-18",
+    "assignedTo": "E3666",
+    "assignedOn": "2025-11-20"
+  },
+  "T53": {
+    "id": "T53",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNA4231IDTDO",
+    "calibrationDueDate": "2025-09-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T54": {
+    "id": "T54",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNMOMGABHWML",
+    "calibrationDueDate": "2025-11-25",
+    "assignedTo": "E3539",
+    "assignedOn": "2025-08-22"
+  },
+  "T55": {
+    "id": "T55",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN8H0XRDHC6T",
+    "calibrationDueDate": "2025-11-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T56": {
+    "id": "T56",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNFGZYEVFF6U",
+    "calibrationDueDate": "2025-10-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T57": {
+    "id": "T57",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNHVFLZTRTOG",
+    "calibrationDueDate": "2025-08-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T58": {
+    "id": "T58",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNHIA80BFRLA",
+    "calibrationDueDate": "2025-08-05",
+    "assignedTo": "E4665",
+    "assignedOn": "2025-11-14"
+  },
+  "T59": {
+    "id": "T59",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNOIWGKHUFCQ",
+    "calibrationDueDate": "2025-10-30",
+    "assignedTo": "E5391",
+    "assignedOn": "2025-11-15"
+  },
+  "T60": {
+    "id": "T60",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNBVHPEROOJG",
+    "calibrationDueDate": "2025-08-22",
+    "assignedTo": "E2828",
+    "assignedOn": "2025-08-27"
+  },
+  "T61": {
+    "id": "T61",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNSSYU3DS8UW",
+    "calibrationDueDate": "2025-10-26",
+    "assignedTo": "E3427",
+    "assignedOn": "2025-10-14"
+  },
+  "T62": {
+    "id": "T62",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SN09X9CAAJMQ",
+    "calibrationDueDate": "2025-08-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T63": {
+    "id": "T63",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNANGYIWSF7M",
+    "calibrationDueDate": "2025-08-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T64": {
+    "id": "T64",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNILPUTYCNWZ",
+    "calibrationDueDate": "2025-10-18",
+    "assignedTo": "E3109",
+    "assignedOn": "2025-07-27"
+  },
+  "T65": {
+    "id": "T65",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNPC7D7VOZ33",
+    "calibrationDueDate": "2025-06-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T66": {
+    "id": "T66",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNTFIPBGJHK0",
+    "calibrationDueDate": "2025-07-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T67": {
+    "id": "T67",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNW3LKCKTR4U",
+    "calibrationDueDate": "2025-11-04",
+    "assignedTo": "E3951",
+    "assignedOn": "2025-07-08"
+  },
+  "T68": {
+    "id": "T68",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNAZ6MGYZWZT",
+    "calibrationDueDate": "2025-06-16",
+    "assignedTo": "E2642",
+    "assignedOn": "2025-07-15"
+  },
+  "T69": {
+    "id": "T69",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNP5OLIMAWEM",
+    "calibrationDueDate": "2025-11-06",
+    "assignedTo": "E2132",
+    "assignedOn": "2025-08-13"
+  },
+  "T70": {
+    "id": "T70",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNKCNBAZMQEC",
+    "calibrationDueDate": "2025-07-15",
+    "assignedTo": "E5759",
+    "assignedOn": "2025-08-25"
+  },
+  "T71": {
+    "id": "T71",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SN7OPWWO6JLJ",
+    "calibrationDueDate": "2025-07-07",
+    "assignedTo": "E4946",
+    "assignedOn": "2025-11-19"
+  },
+  "T72": {
+    "id": "T72",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNM2CPYSZYX7",
+    "calibrationDueDate": "2025-10-07",
+    "assignedTo": "E4255",
+    "assignedOn": "2025-08-27"
+  },
+  "T73": {
+    "id": "T73",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNRGEJNDVNTL",
+    "calibrationDueDate": "2025-10-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T74": {
+    "id": "T74",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNGFNDLNESMV",
+    "calibrationDueDate": "2025-08-17",
+    "assignedTo": "E5759",
+    "assignedOn": "2025-09-10"
+  },
+  "T75": {
+    "id": "T75",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNGMYSNHLGFE",
+    "calibrationDueDate": "2025-07-21",
+    "assignedTo": "E3257",
+    "assignedOn": "2025-08-19"
+  },
+  "T76": {
+    "id": "T76",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN2DES4HOBHU",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T77": {
+    "id": "T77",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNKUKCULI4SI",
+    "calibrationDueDate": "2025-11-22",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T78": {
+    "id": "T78",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNQEQSCOC9V3",
+    "calibrationDueDate": "2025-09-25",
+    "assignedTo": "E4039",
+    "assignedOn": "2025-07-12"
+  },
+  "T79": {
+    "id": "T79",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SN7P0YZRZMFX",
+    "calibrationDueDate": "2025-11-16",
+    "assignedTo": "E2840",
+    "assignedOn": "2025-07-16"
+  },
+  "T80": {
+    "id": "T80",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SN8VOH98AG5L",
+    "calibrationDueDate": "2025-08-04",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T81": {
+    "id": "T81",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNWWTNL0HDDU",
+    "calibrationDueDate": "2025-08-16",
+    "assignedTo": "E4039",
+    "assignedOn": "2025-08-04"
+  },
+  "T82": {
+    "id": "T82",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNJOC8FFRLWJ",
+    "calibrationDueDate": "2025-08-21",
+    "assignedTo": "E4926",
+    "assignedOn": "2025-07-08"
+  },
+  "T83": {
+    "id": "T83",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNEMXF21XWUQ",
+    "calibrationDueDate": "2025-10-17",
+    "assignedTo": "E5645",
+    "assignedOn": "2025-07-01"
+  },
+  "T84": {
+    "id": "T84",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNWKEZAX0RBC",
+    "calibrationDueDate": "2025-08-24",
+    "assignedTo": "E4656",
+    "assignedOn": "2025-09-01"
+  },
+  "T85": {
+    "id": "T85",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNGJHIDNBZGO",
+    "calibrationDueDate": "2025-07-23",
+    "assignedTo": "E2432",
+    "assignedOn": "2025-10-21"
+  },
+  "T86": {
+    "id": "T86",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNXJKGUOS3UI",
+    "calibrationDueDate": "2025-11-05",
+    "assignedTo": "E5623",
+    "assignedOn": "2025-10-16"
+  },
+  "T87": {
+    "id": "T87",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNZT27WBOJVB",
+    "calibrationDueDate": "2025-10-14",
+    "assignedTo": "E4047",
+    "assignedOn": "2025-09-07"
+  },
+  "T88": {
+    "id": "T88",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNF0CJDPFQC5",
+    "calibrationDueDate": "2025-10-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T89": {
+    "id": "T89",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNIPCXFCRAUH",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": "E4954",
+    "assignedOn": "2025-11-10"
+  },
+  "T90": {
+    "id": "T90",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNK8XQVB7F4K",
+    "calibrationDueDate": "2025-11-16",
+    "assignedTo": "E5806",
+    "assignedOn": "2025-11-21"
+  },
+  "T91": {
+    "id": "T91",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNQ43GKVCFWY",
+    "calibrationDueDate": "2025-11-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T92": {
+    "id": "T92",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNE07OC0BZUK",
+    "calibrationDueDate": "2025-06-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T93": {
+    "id": "T93",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNQGLMJZTBKC",
+    "calibrationDueDate": "2025-07-22",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T94": {
+    "id": "T94",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNGNYABPM1IP",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": "E4047",
+    "assignedOn": "2025-07-09"
+  },
+  "T95": {
+    "id": "T95",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNVFKMINLQLN",
+    "calibrationDueDate": "2025-07-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T96": {
+    "id": "T96",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNA11JLFUVC4",
+    "calibrationDueDate": "2025-07-26",
+    "assignedTo": "E4674",
+    "assignedOn": "2025-07-27"
+  },
+  "T97": {
+    "id": "T97",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNQZLCSDVZ0J",
+    "calibrationDueDate": "2025-06-05",
+    "assignedTo": "E5693",
+    "assignedOn": "2025-09-14"
+  },
+  "T98": {
+    "id": "T98",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNT9H0KXNAFJ",
+    "calibrationDueDate": "2025-11-15",
+    "assignedTo": "E4088",
+    "assignedOn": "2025-11-11"
+  },
+  "T99": {
+    "id": "T99",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNXGHAIEACAL",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T100": {
+    "id": "T100",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNM4TUL2FBMB",
+    "calibrationDueDate": "2025-10-02",
+    "assignedTo": "E4036",
+    "assignedOn": "2025-09-14"
+  },
+  "T101": {
+    "id": "T101",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNJFTCIID02H",
+    "calibrationDueDate": "2025-05-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T102": {
+    "id": "T102",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNHF9K2YIU72",
+    "calibrationDueDate": "2025-07-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T103": {
+    "id": "T103",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNYALBNNZ9SV",
+    "calibrationDueDate": "2025-11-13",
+    "assignedTo": "E2911",
+    "assignedOn": "2025-11-05"
+  },
+  "T104": {
+    "id": "T104",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN4IDXEBRO38",
+    "calibrationDueDate": "2025-09-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T105": {
+    "id": "T105",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNQXQDYVIBF7",
+    "calibrationDueDate": "2025-11-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T106": {
+    "id": "T106",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNBKG9WURN9I",
+    "calibrationDueDate": "2025-09-11",
+    "assignedTo": "E3385",
+    "assignedOn": "2025-07-29"
+  },
+  "T107": {
+    "id": "T107",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNB5ZXASOWJV",
+    "calibrationDueDate": "2025-11-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T108": {
+    "id": "T108",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SN5M0USNTJUJ",
+    "calibrationDueDate": "2025-07-11",
+    "assignedTo": "E4795",
+    "assignedOn": "2025-10-04"
+  },
+  "T109": {
+    "id": "T109",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNJRWOEUSG4Q",
+    "calibrationDueDate": "2025-08-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T110": {
+    "id": "T110",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNWFVX6YCVJT",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": "E4047",
+    "assignedOn": "2025-09-08"
+  },
+  "T111": {
+    "id": "T111",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNMPNTHW1K2O",
+    "calibrationDueDate": "2025-08-21",
+    "assignedTo": "E4400",
+    "assignedOn": "2025-09-09"
+  },
+  "T112": {
+    "id": "T112",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNOHE3VBAEUT",
+    "calibrationDueDate": "2025-10-04",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T113": {
+    "id": "T113",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNAAS7WMGVQB",
+    "calibrationDueDate": "2025-10-19",
+    "assignedTo": "E4656",
+    "assignedOn": "2025-11-17"
+  },
+  "T114": {
+    "id": "T114",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNWGM4A8K9QW",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T115": {
+    "id": "T115",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNOFGJ5O33JZ",
+    "calibrationDueDate": "2025-08-30",
+    "assignedTo": "E5258",
+    "assignedOn": "2025-07-12"
+  },
+  "T116": {
+    "id": "T116",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SN9UKGJ15DEO",
+    "calibrationDueDate": "2025-11-15",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T117": {
+    "id": "T117",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNIA5FFQ4DKM",
+    "calibrationDueDate": "2025-09-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T118": {
+    "id": "T118",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNROXNGKZEY5",
+    "calibrationDueDate": "2025-10-10",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-11-05"
+  },
+  "T119": {
+    "id": "T119",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNNQGA4KSW4M",
+    "calibrationDueDate": "2025-06-11",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T120": {
+    "id": "T120",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNKLAYHVAWIY",
+    "calibrationDueDate": "2025-09-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T121": {
+    "id": "T121",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNUWTLCLHSGA",
+    "calibrationDueDate": "2025-11-19",
+    "assignedTo": "E2911",
+    "assignedOn": "2025-08-20"
+  },
+  "T122": {
+    "id": "T122",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNQCBM2SOQVR",
+    "calibrationDueDate": "2025-11-18",
+    "assignedTo": "E2519",
+    "assignedOn": "2025-09-27"
+  },
+  "T123": {
+    "id": "T123",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNT0AUX0NAD0",
+    "calibrationDueDate": "2025-08-18",
+    "assignedTo": "E2119",
+    "assignedOn": "2025-06-17"
+  },
+  "T124": {
+    "id": "T124",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNX9GCWOTMXI",
+    "calibrationDueDate": "2025-08-07",
+    "assignedTo": "E3539",
+    "assignedOn": "2025-10-06"
+  },
+  "T125": {
+    "id": "T125",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNC5WSR2RLP9",
+    "calibrationDueDate": "2025-07-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T126": {
+    "id": "T126",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNFTSOL8FYHR",
+    "calibrationDueDate": "2025-10-24",
+    "assignedTo": "E4255",
+    "assignedOn": "2025-11-26"
+  },
+  "T127": {
+    "id": "T127",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNBKTY3WDIR5",
+    "calibrationDueDate": "2025-12-01",
+    "assignedTo": "E3173",
+    "assignedOn": "2025-06-10"
+  },
+  "T128": {
+    "id": "T128",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNZAU5JFY0Q2",
+    "calibrationDueDate": "2025-10-20",
+    "assignedTo": "E4854",
+    "assignedOn": "2025-10-04"
+  },
+  "T129": {
+    "id": "T129",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNT0JHIYACJ8",
+    "calibrationDueDate": "2025-08-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T130": {
+    "id": "T130",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNKNUBJXRY3I",
+    "calibrationDueDate": "2025-11-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T131": {
+    "id": "T131",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNWGRUVRGCYU",
+    "calibrationDueDate": "2025-10-21",
+    "assignedTo": "E3067",
+    "assignedOn": "2025-11-30"
+  },
+  "T132": {
+    "id": "T132",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SN65XLXHPZH6",
+    "calibrationDueDate": "2025-09-17",
+    "assignedTo": "E4730",
+    "assignedOn": "2025-10-25"
+  },
+  "T133": {
+    "id": "T133",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNDKSPCLEXXX",
+    "calibrationDueDate": "2025-05-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T134": {
+    "id": "T134",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNFM79QVZLQ0",
+    "calibrationDueDate": "2025-08-13",
+    "assignedTo": "E2840",
+    "assignedOn": "2025-08-24"
+  },
+  "T135": {
+    "id": "T135",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNDNHAXYFXQ1",
+    "calibrationDueDate": "2025-10-19",
+    "assignedTo": "E2194",
+    "assignedOn": "2025-09-18"
+  },
+  "T136": {
+    "id": "T136",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNB62U7DK06R",
+    "calibrationDueDate": "2025-10-29",
+    "assignedTo": "E2687",
+    "assignedOn": "2025-07-16"
+  },
+  "T137": {
+    "id": "T137",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNGZPMYQKEV2",
+    "calibrationDueDate": "2025-08-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T138": {
+    "id": "T138",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNY8GIXCXDFM",
+    "calibrationDueDate": "2025-08-30",
+    "assignedTo": "E4641",
+    "assignedOn": "2025-08-02"
+  },
+  "T139": {
+    "id": "T139",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNFT9ATEQF83",
+    "calibrationDueDate": "2025-09-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T140": {
+    "id": "T140",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNGFDR9JUMOG",
+    "calibrationDueDate": "2025-09-15",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T141": {
+    "id": "T141",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNNWKDCMMDCU",
+    "calibrationDueDate": "2025-11-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T142": {
+    "id": "T142",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNC3RG9BGMYQ",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": "E4730",
+    "assignedOn": "2025-12-02"
+  },
+  "T143": {
+    "id": "T143",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNNLYPFBJKDY",
+    "calibrationDueDate": "2025-07-24",
+    "assignedTo": "E4674",
+    "assignedOn": "2025-11-17"
+  },
+  "T144": {
+    "id": "T144",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SN7KTT4O3TI4",
+    "calibrationDueDate": "2025-10-19",
+    "assignedTo": "E5836",
+    "assignedOn": "2025-10-21"
+  },
+  "T145": {
+    "id": "T145",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SN9TZHPXKY3W",
+    "calibrationDueDate": "2025-07-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T146": {
+    "id": "T146",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNMBBQUAZ7BV",
+    "calibrationDueDate": "2025-08-17",
+    "assignedTo": "E4036",
+    "assignedOn": "2025-08-24"
+  },
+  "T147": {
+    "id": "T147",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNFIUWIXQWGA",
+    "calibrationDueDate": "2025-10-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T148": {
+    "id": "T148",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNBRYNLSFYCV",
+    "calibrationDueDate": "2025-10-13",
+    "assignedTo": "E5829",
+    "assignedOn": "2025-11-03"
+  },
+  "T149": {
+    "id": "T149",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNBLBNZUCGRZ",
+    "calibrationDueDate": "2025-07-31",
+    "assignedTo": "E4883",
+    "assignedOn": "2025-08-16"
+  },
+  "T150": {
+    "id": "T150",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNZLRW3KLFFW",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": "E4946",
+    "assignedOn": "2025-09-10"
+  },
+  "T151": {
+    "id": "T151",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNSRRPYO2HME",
+    "calibrationDueDate": "2025-06-08",
+    "assignedTo": "E4926",
+    "assignedOn": "2025-09-17"
+  },
+  "T152": {
+    "id": "T152",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SN1GQMYBJSH6",
+    "calibrationDueDate": "2025-11-26",
+    "assignedTo": "E4950",
+    "assignedOn": "2025-07-31"
+  },
+  "T153": {
+    "id": "T153",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNAWD1XMC1GX",
+    "calibrationDueDate": "2025-07-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T154": {
+    "id": "T154",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNMTJCVTVHYZ",
+    "calibrationDueDate": "2025-09-11",
+    "assignedTo": "E5084",
+    "assignedOn": "2025-08-15"
+  },
+  "T155": {
+    "id": "T155",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNM5ZLUD3HGG",
+    "calibrationDueDate": "2025-09-26",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T156": {
+    "id": "T156",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNPXFE9UPXXE",
+    "calibrationDueDate": "2025-06-23",
+    "assignedTo": "E3109",
+    "assignedOn": "2025-10-16"
+  },
+  "T157": {
+    "id": "T157",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN6SCO17Z8DL",
+    "calibrationDueDate": "2025-08-11",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T158": {
+    "id": "T158",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNO7PYFGT61J",
+    "calibrationDueDate": "2025-06-30",
+    "assignedTo": "E4829",
+    "assignedOn": "2025-12-01"
+  },
+  "T159": {
+    "id": "T159",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNSPCKUA0VCI",
+    "calibrationDueDate": "2025-11-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T160": {
+    "id": "T160",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SN83HBP0DNBM",
+    "calibrationDueDate": "2025-11-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T161": {
+    "id": "T161",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNJPZEIOD6KF",
+    "calibrationDueDate": "2025-10-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T162": {
+    "id": "T162",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNKCTERPK7YW",
+    "calibrationDueDate": "2025-11-26",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T163": {
+    "id": "T163",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNUNU6AJYHU3",
+    "calibrationDueDate": "2025-08-12",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T164": {
+    "id": "T164",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNLMFO9QVZ11",
+    "calibrationDueDate": "2025-10-03",
+    "assignedTo": "E3809",
+    "assignedOn": "2025-11-16"
+  },
+  "T165": {
+    "id": "T165",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNH5CTEBGUMG",
+    "calibrationDueDate": "2025-10-13",
+    "assignedTo": "E3666",
+    "assignedOn": "2025-10-22"
+  },
+  "T166": {
+    "id": "T166",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNXKE8FXNW7W",
+    "calibrationDueDate": "2025-07-04",
+    "assignedTo": "E4829",
+    "assignedOn": "2025-11-18"
+  },
+  "T167": {
+    "id": "T167",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNVRBOA1TZVG",
+    "calibrationDueDate": "2025-11-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T168": {
+    "id": "T168",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNYDAN3KQND9",
+    "calibrationDueDate": "2025-09-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T169": {
+    "id": "T169",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNYKTHHWHCFZ",
+    "calibrationDueDate": "2025-11-05",
+    "assignedTo": "E5806",
+    "assignedOn": "2025-10-24"
+  },
+  "T170": {
+    "id": "T170",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNVSVCH6VTBK",
+    "calibrationDueDate": "2025-06-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T171": {
+    "id": "T171",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNLUYBSRMI9P",
+    "calibrationDueDate": "2025-11-24",
+    "assignedTo": "E3427",
+    "assignedOn": "2025-10-29"
+  },
+  "T172": {
+    "id": "T172",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNNLGU1CY4J6",
+    "calibrationDueDate": "2025-10-20",
+    "assignedTo": "E2840",
+    "assignedOn": "2025-06-24"
+  },
+  "T173": {
+    "id": "T173",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNGZY6V80Y9N",
+    "calibrationDueDate": "2025-08-16",
+    "assignedTo": "E5906",
+    "assignedOn": "2025-08-03"
+  },
+  "T174": {
+    "id": "T174",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNABM0BRJPJE",
+    "calibrationDueDate": "2025-11-30",
+    "assignedTo": "E5836",
+    "assignedOn": "2025-09-02"
+  },
+  "T175": {
+    "id": "T175",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNXQDG3GJC2D",
+    "calibrationDueDate": "2025-08-20",
+    "assignedTo": "E3539",
+    "assignedOn": "2025-06-21"
+  },
+  "T176": {
+    "id": "T176",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SN2FRW66DADD",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T177": {
+    "id": "T177",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNNHYKJFB8LD",
+    "calibrationDueDate": "2025-11-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T178": {
+    "id": "T178",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNUWYPUQBHLM",
+    "calibrationDueDate": "2025-06-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T179": {
+    "id": "T179",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNL4SERCQVNS",
+    "calibrationDueDate": "2025-10-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T180": {
+    "id": "T180",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SN3UODG08KBK",
+    "calibrationDueDate": "2025-06-16",
+    "assignedTo": "E3109",
+    "assignedOn": "2025-10-24"
+  },
+  "T181": {
+    "id": "T181",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNAPXCUZ9RWR",
+    "calibrationDueDate": "2025-06-12",
+    "assignedTo": "E2690",
+    "assignedOn": "2025-08-25"
+  },
+  "T182": {
+    "id": "T182",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNNTSE7JHD8W",
+    "calibrationDueDate": "2025-09-04",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T183": {
+    "id": "T183",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNAKGHKICYYJ",
+    "calibrationDueDate": "2025-10-12",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T184": {
+    "id": "T184",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNCE0GWXEFEF",
+    "calibrationDueDate": "2025-10-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T185": {
+    "id": "T185",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNRCWFBSXJRO",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": "E5693",
+    "assignedOn": "2025-07-14"
+  },
+  "T186": {
+    "id": "T186",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SN9EUV26JJ9R",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T187": {
+    "id": "T187",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNTQ7BBXD0D9",
+    "calibrationDueDate": "2025-06-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T188": {
+    "id": "T188",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNBEZNVIW7UC",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": "E4795",
+    "assignedOn": "2025-11-08"
+  },
+  "T189": {
+    "id": "T189",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SN7NVCR9352U",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": "E2897",
+    "assignedOn": "2025-09-16"
+  },
+  "T190": {
+    "id": "T190",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNIU2VX3ZQNK",
+    "calibrationDueDate": "2025-06-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T191": {
+    "id": "T191",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SN4HTTNN3IIY",
+    "calibrationDueDate": "2025-11-28",
+    "assignedTo": "E5645",
+    "assignedOn": "2025-10-23"
+  },
+  "T192": {
+    "id": "T192",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNNB8B2GRROO",
+    "calibrationDueDate": "2025-05-22",
+    "assignedTo": "E2690",
+    "assignedOn": "2025-07-21"
+  },
+  "T193": {
+    "id": "T193",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNMA2KGVAS7B",
+    "calibrationDueDate": "2025-09-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T194": {
+    "id": "T194",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNXO8C6KXCCS",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T195": {
+    "id": "T195",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNFCEMACJD01",
+    "calibrationDueDate": "2025-05-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T196": {
+    "id": "T196",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNTT8SU4HERX",
+    "calibrationDueDate": "2025-10-26",
+    "assignedTo": "E5035",
+    "assignedOn": "2025-11-06"
+  },
+  "T197": {
+    "id": "T197",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN4IUODCWLWF",
+    "calibrationDueDate": "2025-09-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T198": {
+    "id": "T198",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNL3CX91IQFO",
+    "calibrationDueDate": "2025-09-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T199": {
+    "id": "T199",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNTNUEYWAH7G",
+    "calibrationDueDate": "2025-06-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T200": {
+    "id": "T200",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNIBSLRVO9ET",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T201": {
+    "id": "T201",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SN8TYGYRFXFO",
+    "calibrationDueDate": "2025-10-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T202": {
+    "id": "T202",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNAAOTOZ4SHB",
+    "calibrationDueDate": "2025-07-13",
+    "assignedTo": "E2897",
+    "assignedOn": "2025-06-26"
+  },
+  "T203": {
+    "id": "T203",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNHDSNP6Q2XZ",
+    "calibrationDueDate": "2025-07-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T204": {
+    "id": "T204",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNFPL9UAXGSZ",
+    "calibrationDueDate": "2025-12-03",
+    "assignedTo": "E2034",
+    "assignedOn": "2025-08-14"
+  },
+  "T205": {
+    "id": "T205",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SN1PNEHQAGGC",
+    "calibrationDueDate": "2025-09-21",
+    "assignedTo": "E2970",
+    "assignedOn": "2025-10-29"
+  },
+  "T206": {
+    "id": "T206",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SN1ADX0EAAAX",
+    "calibrationDueDate": "2025-10-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T207": {
+    "id": "T207",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNYHREVQPSIK",
+    "calibrationDueDate": "2025-10-25",
+    "assignedTo": "E2135",
+    "assignedOn": "2025-06-18"
+  },
+  "T208": {
+    "id": "T208",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNEIVLCELSQK",
+    "calibrationDueDate": "2025-06-30",
+    "assignedTo": "E3385",
+    "assignedOn": "2025-09-13"
+  },
+  "T209": {
+    "id": "T209",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SN9WLMCIBQK1",
+    "calibrationDueDate": "2025-08-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T210": {
+    "id": "T210",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNPJ80DQKU29",
+    "calibrationDueDate": "2025-11-28",
+    "assignedTo": "E2911",
+    "assignedOn": "2025-07-06"
+  },
+  "T211": {
+    "id": "T211",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNTYFKOFMIZY",
+    "calibrationDueDate": "2025-08-31",
+    "assignedTo": "E2690",
+    "assignedOn": "2025-09-02"
+  },
+  "T212": {
+    "id": "T212",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNHARIMUC4YA",
+    "calibrationDueDate": "2025-08-17",
+    "assignedTo": "E4079",
+    "assignedOn": "2025-09-01"
+  },
+  "T213": {
+    "id": "T213",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNU9JE2SC8BW",
+    "calibrationDueDate": "2025-09-04",
+    "assignedTo": "E3666",
+    "assignedOn": "2025-11-22"
+  },
+  "T214": {
+    "id": "T214",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNC2LHMWA4ME",
+    "calibrationDueDate": "2025-09-03",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-06-30"
+  },
+  "T215": {
+    "id": "T215",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SN62KVGZ80QC",
+    "calibrationDueDate": "2025-06-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T216": {
+    "id": "T216",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNCCYNT0WHKN",
+    "calibrationDueDate": "2025-07-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T217": {
+    "id": "T217",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNVLX4QTDPX5",
+    "calibrationDueDate": "2025-07-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T218": {
+    "id": "T218",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNPIDKVH38G5",
+    "calibrationDueDate": "2025-07-09",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T219": {
+    "id": "T219",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNNZKYARP37P",
+    "calibrationDueDate": "2025-10-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T220": {
+    "id": "T220",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNUHGIITGMTA",
+    "calibrationDueDate": "2025-10-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T221": {
+    "id": "T221",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNRABXJRWSVL",
+    "calibrationDueDate": "2025-07-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T222": {
+    "id": "T222",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN6J9L9BWJIX",
+    "calibrationDueDate": "2025-09-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T223": {
+    "id": "T223",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNQ1BHVJFDTA",
+    "calibrationDueDate": "2025-08-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T224": {
+    "id": "T224",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNIZPO6HWK5S",
+    "calibrationDueDate": "2025-06-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T225": {
+    "id": "T225",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNRVCGRJZZ5E",
+    "calibrationDueDate": "2025-07-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T226": {
+    "id": "T226",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNLPEGW5MVGC",
+    "calibrationDueDate": "2025-07-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T227": {
+    "id": "T227",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNZLOST3QVIO",
+    "calibrationDueDate": "2025-09-02",
+    "assignedTo": "E2132",
+    "assignedOn": "2025-07-08"
+  },
+  "T228": {
+    "id": "T228",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNT8M1G76VV9",
+    "calibrationDueDate": "2025-08-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T229": {
+    "id": "T229",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNXMD9EELLAW",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": "E3173",
+    "assignedOn": "2025-06-29"
+  },
+  "T230": {
+    "id": "T230",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNUZRSMCTXD3",
+    "calibrationDueDate": "2025-07-20",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T231": {
+    "id": "T231",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNLE5L6OGLL1",
+    "calibrationDueDate": "2025-05-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T232": {
+    "id": "T232",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SN8QLHQAPPQW",
+    "calibrationDueDate": "2025-06-08",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-09-12"
+  },
+  "T233": {
+    "id": "T233",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNOO4LACERJ3",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T234": {
+    "id": "T234",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNP8GRFUIK1V",
+    "calibrationDueDate": "2025-05-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T235": {
+    "id": "T235",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNITAZNNAE5K",
+    "calibrationDueDate": "2025-10-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T236": {
+    "id": "T236",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SN1IFCKMYFAA",
+    "calibrationDueDate": "2025-11-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T237": {
+    "id": "T237",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNURVOHHOWSL",
+    "calibrationDueDate": "2025-07-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T238": {
+    "id": "T238",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNCXVK0DETF0",
+    "calibrationDueDate": "2025-10-08",
+    "assignedTo": "E2840",
+    "assignedOn": "2025-10-26"
+  },
+  "T239": {
+    "id": "T239",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNQBHN517KOB",
+    "calibrationDueDate": "2025-11-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T240": {
+    "id": "T240",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNYN5VHPGSUQ",
+    "calibrationDueDate": "2025-11-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T241": {
+    "id": "T241",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SN4NLKBTHRMS",
+    "calibrationDueDate": "2025-06-17",
+    "assignedTo": "E3773",
+    "assignedOn": "2025-11-15"
+  },
+  "T242": {
+    "id": "T242",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNRENUSCF35L",
+    "calibrationDueDate": "2025-08-14",
+    "assignedTo": "E3534",
+    "assignedOn": "2025-08-26"
+  },
+  "T243": {
+    "id": "T243",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SN02GNPSSUWG",
+    "calibrationDueDate": "2025-06-20",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T244": {
+    "id": "T244",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNEU5Z5UUB9C",
+    "calibrationDueDate": "2025-06-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T245": {
+    "id": "T245",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNO7FIFGVWEP",
+    "calibrationDueDate": "2025-08-04",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T246": {
+    "id": "T246",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNF473PDPNE7",
+    "calibrationDueDate": "2025-11-15",
+    "assignedTo": "E3427",
+    "assignedOn": "2025-11-05"
+  },
+  "T247": {
+    "id": "T247",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNF7JWEE2DTC",
+    "calibrationDueDate": "2025-07-21",
+    "assignedTo": "E5759",
+    "assignedOn": "2025-11-07"
+  },
+  "T248": {
+    "id": "T248",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNFAQKVPFBLK",
+    "calibrationDueDate": "2025-10-22",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T249": {
+    "id": "T249",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNDFHKOI6SBM",
+    "calibrationDueDate": "2025-10-12",
+    "assignedTo": "E4674",
+    "assignedOn": "2025-10-10"
+  },
+  "T250": {
+    "id": "T250",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNKYH4RN1XF5",
+    "calibrationDueDate": "2025-11-13",
+    "assignedTo": "E3658",
+    "assignedOn": "2025-09-24"
+  },
+  "T251": {
+    "id": "T251",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNBCR2U4VW0L",
+    "calibrationDueDate": "2025-06-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T252": {
+    "id": "T252",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNXABDHQDLWP",
+    "calibrationDueDate": "2025-11-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T253": {
+    "id": "T253",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SN6JW241P2GQ",
+    "calibrationDueDate": "2025-06-12",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T254": {
+    "id": "T254",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNO5JZNYHNKX",
+    "calibrationDueDate": "2025-09-09",
+    "assignedTo": "E3257",
+    "assignedOn": "2025-11-24"
+  },
+  "T255": {
+    "id": "T255",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNH4UXOYCDZA",
+    "calibrationDueDate": "2025-09-10",
+    "assignedTo": "E2970",
+    "assignedOn": "2025-09-05"
+  },
+  "T256": {
+    "id": "T256",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNZINRX9OHYX",
+    "calibrationDueDate": "2025-11-30",
+    "assignedTo": "E2186",
+    "assignedOn": "2025-10-25"
+  },
+  "T257": {
+    "id": "T257",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SN5IYJXKWPHZ",
+    "calibrationDueDate": "2025-07-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T258": {
+    "id": "T258",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNNDMX1PCIF3",
+    "calibrationDueDate": "2025-10-01",
+    "assignedTo": "E4656",
+    "assignedOn": "2025-10-02"
+  },
+  "T259": {
+    "id": "T259",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNJROYCVKM5X",
+    "calibrationDueDate": "2025-11-20",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T260": {
+    "id": "T260",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNXF4XJUBWSC",
+    "calibrationDueDate": "2025-07-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T261": {
+    "id": "T261",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNACYQDFHAID",
+    "calibrationDueDate": "2025-10-06",
+    "assignedTo": "E5801",
+    "assignedOn": "2025-11-21"
+  },
+  "T262": {
+    "id": "T262",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SN46EYHDNTW9",
+    "calibrationDueDate": "2025-11-26",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T263": {
+    "id": "T263",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNZGADR5MTCS",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T264": {
+    "id": "T264",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNYHL6PIDZNV",
+    "calibrationDueDate": "2025-11-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T265": {
+    "id": "T265",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNFDTB6ROROT",
+    "calibrationDueDate": "2025-08-13",
+    "assignedTo": "E4674",
+    "assignedOn": "2025-07-09"
+  },
+  "T266": {
+    "id": "T266",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNPAPS8XYAGO",
+    "calibrationDueDate": "2025-06-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T267": {
+    "id": "T267",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNRW6ROGXSVW",
+    "calibrationDueDate": "2025-06-22",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T268": {
+    "id": "T268",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNJHA1GKYXZW",
+    "calibrationDueDate": "2025-07-29",
+    "assignedTo": "E4883",
+    "assignedOn": "2025-09-07"
+  },
+  "T269": {
+    "id": "T269",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNSQSTCUBR1Z",
+    "calibrationDueDate": "2025-11-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T270": {
+    "id": "T270",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNRWFVLRZBEV",
+    "calibrationDueDate": "2025-11-04",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T271": {
+    "id": "T271",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNSPR08PUQQN",
+    "calibrationDueDate": "2025-11-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T272": {
+    "id": "T272",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNQGC5YY4S2P",
+    "calibrationDueDate": "2025-11-18",
+    "assignedTo": "E5391",
+    "assignedOn": "2025-06-27"
+  },
+  "T273": {
+    "id": "T273",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNAXNIGLZCV5",
+    "calibrationDueDate": "2025-08-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T274": {
+    "id": "T274",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNCURTHMIILG",
+    "calibrationDueDate": "2025-06-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T275": {
+    "id": "T275",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SN44XWIOJC1M",
+    "calibrationDueDate": "2025-11-23",
+    "assignedTo": "E2970",
+    "assignedOn": "2025-08-04"
+  },
+  "T276": {
+    "id": "T276",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNKPS87KFDO9",
+    "calibrationDueDate": "2025-07-12",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T277": {
+    "id": "T277",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SN0OBM3ZHNYM",
+    "calibrationDueDate": "2025-09-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T278": {
+    "id": "T278",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNKGMBGWKJKS",
+    "calibrationDueDate": "2025-09-01",
+    "assignedTo": "E5258",
+    "assignedOn": "2025-06-23"
+  },
+  "T279": {
+    "id": "T279",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNCIBTL3WMUI",
+    "calibrationDueDate": "2025-10-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T280": {
+    "id": "T280",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNDBAMB9KIMZ",
+    "calibrationDueDate": "2025-08-22",
+    "assignedTo": "E2677",
+    "assignedOn": "2025-11-14"
+  },
+  "T281": {
+    "id": "T281",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SN4NHFJIR6QO",
+    "calibrationDueDate": "2025-06-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T282": {
+    "id": "T282",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNDPHYDQKIJ5",
+    "calibrationDueDate": "2025-07-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T283": {
+    "id": "T283",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNBKZJ7GEMXU",
+    "calibrationDueDate": "2025-12-05",
+    "assignedTo": "E2565",
+    "assignedOn": "2025-11-24"
+  },
+  "T284": {
+    "id": "T284",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SN6VPM05Q39I",
+    "calibrationDueDate": "2025-06-24",
+    "assignedTo": "E3067",
+    "assignedOn": "2025-10-07"
+  },
+  "T285": {
+    "id": "T285",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNTI6S4QSOJ1",
+    "calibrationDueDate": "2025-07-12",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T286": {
+    "id": "T286",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNI1WESITDKT",
+    "calibrationDueDate": "2025-08-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T287": {
+    "id": "T287",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNVXDBOMLBMH",
+    "calibrationDueDate": "2025-10-08",
+    "assignedTo": "E2519",
+    "assignedOn": "2025-07-21"
+  },
+  "T288": {
+    "id": "T288",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNO019KLUCFO",
+    "calibrationDueDate": "2025-07-29",
+    "assignedTo": "E2565",
+    "assignedOn": "2025-09-20"
+  },
+  "T289": {
+    "id": "T289",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNMM2TC8IZQD",
+    "calibrationDueDate": "2025-06-14",
+    "assignedTo": "E5645",
+    "assignedOn": "2025-08-31"
+  },
+  "T290": {
+    "id": "T290",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNTJPFL1OYLM",
+    "calibrationDueDate": "2025-08-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T291": {
+    "id": "T291",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNIGZLN9VGSP",
+    "calibrationDueDate": "2025-07-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T292": {
+    "id": "T292",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNH2DRXWA3MG",
+    "calibrationDueDate": "2025-10-11",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T293": {
+    "id": "T293",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNPECYCTJ7RK",
+    "calibrationDueDate": "2025-11-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T294": {
+    "id": "T294",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNSV7HTIS7LS",
+    "calibrationDueDate": "2025-11-19",
+    "assignedTo": "E4039",
+    "assignedOn": "2025-11-24"
+  },
+  "T295": {
+    "id": "T295",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNCI3POPKYSH",
+    "calibrationDueDate": "2025-09-28",
+    "assignedTo": "E5391",
+    "assignedOn": "2025-11-23"
+  },
+  "T296": {
+    "id": "T296",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNBJZ9TSYKZ7",
+    "calibrationDueDate": "2025-12-02",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T297": {
+    "id": "T297",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNXW0OTNBIUB",
+    "calibrationDueDate": "2025-10-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T298": {
+    "id": "T298",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNOZDQCZLDSQ",
+    "calibrationDueDate": "2025-10-25",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T299": {
+    "id": "T299",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNRADU7RDM9M",
+    "calibrationDueDate": "2025-08-08",
+    "assignedTo": "E3180",
+    "assignedOn": "2025-08-18"
+  },
+  "T300": {
+    "id": "T300",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN6DIYWOCBJE",
+    "calibrationDueDate": "2025-11-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T301": {
+    "id": "T301",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNUUZJZ3XXC8",
+    "calibrationDueDate": "2025-09-26",
+    "assignedTo": "E3385",
+    "assignedOn": "2025-11-09"
+  },
+  "T302": {
+    "id": "T302",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNJWS4JNPDSU",
+    "calibrationDueDate": "2025-08-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T303": {
+    "id": "T303",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SN3VZ1FOH53U",
+    "calibrationDueDate": "2025-11-20",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T304": {
+    "id": "T304",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNHDIMQNVRMG",
+    "calibrationDueDate": "2025-07-15",
+    "assignedTo": "E3067",
+    "assignedOn": "2025-07-06"
+  },
+  "T305": {
+    "id": "T305",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNGGDRXIY7RO",
+    "calibrationDueDate": "2025-07-20",
+    "assignedTo": "E3173",
+    "assignedOn": "2025-08-11"
+  },
+  "T306": {
+    "id": "T306",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNVBBFSFXBAR",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": "E5690",
+    "assignedOn": "2025-08-08"
+  },
+  "T307": {
+    "id": "T307",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNPCAYL2EONV",
+    "calibrationDueDate": "2025-10-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T308": {
+    "id": "T308",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNKHEOCRLZVM",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": "E5836",
+    "assignedOn": "2025-07-08"
+  },
+  "T309": {
+    "id": "T309",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNUXD2TDQBCE",
+    "calibrationDueDate": "2025-10-19",
+    "assignedTo": "E3546",
+    "assignedOn": "2025-08-14"
+  },
+  "T310": {
+    "id": "T310",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNWDUHBOU2C3",
+    "calibrationDueDate": "2025-10-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T311": {
+    "id": "T311",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNBGN99IGUW5",
+    "calibrationDueDate": "2025-11-27",
+    "assignedTo": "E4872",
+    "assignedOn": "2025-10-05"
+  },
+  "T312": {
+    "id": "T312",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNHWJV2FGMBO",
+    "calibrationDueDate": "2025-07-30",
+    "assignedTo": "E2677",
+    "assignedOn": "2025-12-05"
+  },
+  "T313": {
+    "id": "T313",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SN8T14FIIR4G",
+    "calibrationDueDate": "2025-09-26",
+    "assignedTo": "E3054",
+    "assignedOn": "2025-07-29"
+  },
+  "T314": {
+    "id": "T314",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNI1SN8FKEJF",
+    "calibrationDueDate": "2025-07-12",
+    "assignedTo": "E4537",
+    "assignedOn": "2025-09-25"
+  },
+  "T315": {
+    "id": "T315",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNJ9NHAPEFAJ",
+    "calibrationDueDate": "2025-12-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T316": {
+    "id": "T316",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNYRJ5FTJE5X",
+    "calibrationDueDate": "2025-07-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T317": {
+    "id": "T317",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNEBGAPCPLMV",
+    "calibrationDueDate": "2025-06-29",
+    "assignedTo": "E5964",
+    "assignedOn": "2025-11-17"
+  },
+  "T318": {
+    "id": "T318",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNPL4EF0NRDT",
+    "calibrationDueDate": "2025-11-17",
+    "assignedTo": "E5274",
+    "assignedOn": "2025-06-11"
+  },
+  "T319": {
+    "id": "T319",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNLTSHXZVFRX",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": "E4656",
+    "assignedOn": "2025-07-22"
+  },
+  "T320": {
+    "id": "T320",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNOCT0ZSVW2P",
+    "calibrationDueDate": "2025-06-18",
+    "assignedTo": "E5964",
+    "assignedOn": "2025-09-08"
+  },
+  "T321": {
+    "id": "T321",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNJCGFNLWTZJ",
+    "calibrationDueDate": "2025-10-17",
+    "assignedTo": "E3809",
+    "assignedOn": "2025-06-16"
+  },
+  "T322": {
+    "id": "T322",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SN1KSXJDCCBN",
+    "calibrationDueDate": "2025-11-05",
+    "assignedTo": "E4545",
+    "assignedOn": "2025-09-03"
+  },
+  "T323": {
+    "id": "T323",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNO85MYB3BOZ",
+    "calibrationDueDate": "2025-12-04",
+    "assignedTo": "E5836",
+    "assignedOn": "2025-07-19"
+  },
+  "T324": {
+    "id": "T324",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNZYSF7PMRTI",
+    "calibrationDueDate": "2025-11-29",
+    "assignedTo": "E4926",
+    "assignedOn": "2025-12-01"
+  },
+  "T325": {
+    "id": "T325",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNZCVME4LEWV",
+    "calibrationDueDate": "2025-10-11",
+    "assignedTo": "E5035",
+    "assignedOn": "2025-11-18"
+  },
+  "T326": {
+    "id": "T326",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNIRTP2EFPFN",
+    "calibrationDueDate": "2025-07-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T327": {
+    "id": "T327",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN1BD1WBB1JC",
+    "calibrationDueDate": "2025-11-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T328": {
+    "id": "T328",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNLUQXLU0G0H",
+    "calibrationDueDate": "2025-11-17",
+    "assignedTo": "E4641",
+    "assignedOn": "2025-11-19"
+  },
+  "T329": {
+    "id": "T329",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNZAXUHV637W",
+    "calibrationDueDate": "2025-11-11",
+    "assignedTo": "E2519",
+    "assignedOn": "2025-07-31"
+  },
+  "T330": {
+    "id": "T330",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNT5YDLLQUVP",
+    "calibrationDueDate": "2025-08-28",
+    "assignedTo": "E5801",
+    "assignedOn": "2025-10-12"
+  },
+  "T331": {
+    "id": "T331",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNUP3IIMLLAD",
+    "calibrationDueDate": "2025-10-02",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T332": {
+    "id": "T332",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNLQOHWZ0UWK",
+    "calibrationDueDate": "2025-10-02",
+    "assignedTo": "E2840",
+    "assignedOn": "2025-09-30"
+  },
+  "T333": {
+    "id": "T333",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNXHDXEZCHSR",
+    "calibrationDueDate": "2025-08-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T334": {
+    "id": "T334",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN9LGY7D5BKE",
+    "calibrationDueDate": "2025-08-19",
+    "assignedTo": "E4047",
+    "assignedOn": "2025-11-04"
+  },
+  "T335": {
+    "id": "T335",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SN12CIU0QVXE",
+    "calibrationDueDate": "2025-07-17",
+    "assignedTo": "E2194",
+    "assignedOn": "2025-10-30"
+  },
+  "T336": {
+    "id": "T336",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNS45IVFQVRN",
+    "calibrationDueDate": "2025-09-02",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T337": {
+    "id": "T337",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SN251QUYTDGN",
+    "calibrationDueDate": "2025-11-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T338": {
+    "id": "T338",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNNGFY4QJR7F",
+    "calibrationDueDate": "2025-07-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T339": {
+    "id": "T339",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SN29Q57IORBA",
+    "calibrationDueDate": "2025-11-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T340": {
+    "id": "T340",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNFMLBDAP1FC",
+    "calibrationDueDate": "2025-09-23",
+    "assignedTo": "E5645",
+    "assignedOn": "2025-07-02"
+  },
+  "T341": {
+    "id": "T341",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNQHDPAC4VUB",
+    "calibrationDueDate": "2025-07-27",
+    "assignedTo": "E4537",
+    "assignedOn": "2025-10-14"
+  },
+  "T342": {
+    "id": "T342",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNPTOLP3NSXZ",
+    "calibrationDueDate": "2025-11-26",
+    "assignedTo": "E5788",
+    "assignedOn": "2025-11-25"
+  },
+  "T343": {
+    "id": "T343",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNYOCDUIQJOI",
+    "calibrationDueDate": "2025-08-10",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T344": {
+    "id": "T344",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNFEVKF8IIWM",
+    "calibrationDueDate": "2025-12-04",
+    "assignedTo": "E3173",
+    "assignedOn": "2025-11-21"
+  },
+  "T345": {
+    "id": "T345",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNBZYAQECABQ",
+    "calibrationDueDate": "2025-08-22",
+    "assignedTo": "E4079",
+    "assignedOn": "2025-06-28"
+  },
+  "T346": {
+    "id": "T346",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNGIVVIMHODI",
+    "calibrationDueDate": "2025-09-25",
+    "assignedTo": "E5645",
+    "assignedOn": "2025-09-17"
+  },
+  "T347": {
+    "id": "T347",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNK8JNWRBDIC",
+    "calibrationDueDate": "2025-11-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T348": {
+    "id": "T348",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNHTL56I3Y6O",
+    "calibrationDueDate": "2025-10-02",
+    "assignedTo": "E4730",
+    "assignedOn": "2025-11-07"
+  },
+  "T349": {
+    "id": "T349",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNM2OJDS6BM6",
+    "calibrationDueDate": "2025-06-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T350": {
+    "id": "T350",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN1XOIMKYGNN",
+    "calibrationDueDate": "2025-07-25",
+    "assignedTo": "E4047",
+    "assignedOn": "2025-11-09"
+  },
+  "T351": {
+    "id": "T351",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN0GHKYPY6XR",
+    "calibrationDueDate": "2025-11-26",
+    "assignedTo": "E3173",
+    "assignedOn": "2025-07-11"
+  },
+  "T352": {
+    "id": "T352",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNCIMQ2MLVQP",
+    "calibrationDueDate": "2025-10-10",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T353": {
+    "id": "T353",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNHYZIKYPGAR",
+    "calibrationDueDate": "2025-09-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T354": {
+    "id": "T354",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNTX67WFJMCL",
+    "calibrationDueDate": "2025-08-28",
+    "assignedTo": "E4088",
+    "assignedOn": "2025-09-04"
+  },
+  "T355": {
+    "id": "T355",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNKGPYJP3KAN",
+    "calibrationDueDate": "2025-07-18",
+    "assignedTo": "E5538",
+    "assignedOn": "2025-11-18"
+  },
+  "T356": {
+    "id": "T356",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNORODDFW2MJ",
+    "calibrationDueDate": "2025-07-18",
+    "assignedTo": "E3666",
+    "assignedOn": "2025-07-16"
+  },
+  "T357": {
+    "id": "T357",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNB0UBBMYDCV",
+    "calibrationDueDate": "2025-09-28",
+    "assignedTo": "E5084",
+    "assignedOn": "2025-07-27"
+  },
+  "T358": {
+    "id": "T358",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNRLVBMWSAIB",
+    "calibrationDueDate": "2025-07-23",
+    "assignedTo": "E4573",
+    "assignedOn": "2025-10-16"
+  },
+  "T359": {
+    "id": "T359",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN6R0VDX0QBE",
+    "calibrationDueDate": "2025-09-23",
+    "assignedTo": "E3276",
+    "assignedOn": "2025-07-18"
+  },
+  "T360": {
+    "id": "T360",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNV72VJ5ONQL",
+    "calibrationDueDate": "2025-05-25",
+    "assignedTo": "E5964",
+    "assignedOn": "2025-09-03"
+  },
+  "T361": {
+    "id": "T361",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNLYKJXFBRNB",
+    "calibrationDueDate": "2025-10-18",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T362": {
+    "id": "T362",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNVB4T0KEKTZ",
+    "calibrationDueDate": "2025-05-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T363": {
+    "id": "T363",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN29QXREOY4L",
+    "calibrationDueDate": "2025-10-13",
+    "assignedTo": "E3808",
+    "assignedOn": "2025-08-07"
+  },
+  "T364": {
+    "id": "T364",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNAIFGXMAW36",
+    "calibrationDueDate": "2025-10-01",
+    "assignedTo": "E3109",
+    "assignedOn": "2025-11-16"
+  },
+  "T365": {
+    "id": "T365",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNHUM3QMFH8Y",
+    "calibrationDueDate": "2025-06-14",
+    "assignedTo": "E4829",
+    "assignedOn": "2025-06-16"
+  },
+  "T366": {
+    "id": "T366",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNUPQBTNWX4J",
+    "calibrationDueDate": "2025-07-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T367": {
+    "id": "T367",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN2KLHKEGMMH",
+    "calibrationDueDate": "2025-06-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T368": {
+    "id": "T368",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SN753VUG3ZL1",
+    "calibrationDueDate": "2025-06-24",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T369": {
+    "id": "T369",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNO0DAU2NWHK",
+    "calibrationDueDate": "2025-06-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T370": {
+    "id": "T370",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNHCCNR9GZQA",
+    "calibrationDueDate": "2025-08-28",
+    "assignedTo": "E4641",
+    "assignedOn": "2025-11-23"
+  },
+  "T371": {
+    "id": "T371",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNC1GTSPKJKX",
+    "calibrationDueDate": "2025-06-18",
+    "assignedTo": "E5964",
+    "assignedOn": "2025-10-03"
+  },
+  "T372": {
+    "id": "T372",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNW65MZ9MQ3S",
+    "calibrationDueDate": "2025-08-14",
+    "assignedTo": "E5829",
+    "assignedOn": "2025-08-17"
+  },
+  "T373": {
+    "id": "T373",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNKSTZB3SQTX",
+    "calibrationDueDate": "2025-11-11",
+    "assignedTo": "E4665",
+    "assignedOn": "2025-11-18"
+  },
+  "T374": {
+    "id": "T374",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNXNW9JNO2HN",
+    "calibrationDueDate": "2025-12-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T375": {
+    "id": "T375",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNNGBQ69EIJQ",
+    "calibrationDueDate": "2025-07-17",
+    "assignedTo": "E5589",
+    "assignedOn": "2025-09-12"
+  },
+  "T376": {
+    "id": "T376",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNAFST8VQ2EU",
+    "calibrationDueDate": "2025-08-25",
+    "assignedTo": "E4039",
+    "assignedOn": "2025-09-10"
+  },
+  "T377": {
+    "id": "T377",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNFXS4RFGNRX",
+    "calibrationDueDate": "2025-06-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T378": {
+    "id": "T378",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNUWESGFBTIJ",
+    "calibrationDueDate": "2025-10-22",
+    "assignedTo": "E4704",
+    "assignedOn": "2025-06-15"
+  },
+  "T379": {
+    "id": "T379",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNHXSLGMVZWT",
+    "calibrationDueDate": "2025-05-10",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T380": {
+    "id": "T380",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNEMC3QRQRR3",
+    "calibrationDueDate": "2025-07-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T381": {
+    "id": "T381",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNVPNZ0AZL2W",
+    "calibrationDueDate": "2025-08-03",
+    "assignedTo": "E5589",
+    "assignedOn": "2025-11-06"
+  },
+  "T382": {
+    "id": "T382",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNIV45R1SL8B",
+    "calibrationDueDate": "2025-09-18",
+    "assignedTo": "E3809",
+    "assignedOn": "2025-09-06"
+  },
+  "T383": {
+    "id": "T383",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SN89BTAXVVR3",
+    "calibrationDueDate": "2025-11-09",
+    "assignedTo": "E2034",
+    "assignedOn": "2025-09-09"
+  },
+  "T384": {
+    "id": "T384",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNPO8ZLPY7VU",
+    "calibrationDueDate": "2025-10-26",
+    "assignedTo": "E5906",
+    "assignedOn": "2025-07-24"
+  },
+  "T385": {
+    "id": "T385",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SN2CIXDABEIW",
+    "calibrationDueDate": "2025-07-13",
+    "assignedTo": "E3385",
+    "assignedOn": "2025-11-17"
+  },
+  "T386": {
+    "id": "T386",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN1WWGIX4TP8",
+    "calibrationDueDate": "2025-11-30",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T387": {
+    "id": "T387",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNYWHQ9QRBFA",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T388": {
+    "id": "T388",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNJWHJYRNU7E",
+    "calibrationDueDate": "2025-09-26",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-09-24"
+  },
+  "T389": {
+    "id": "T389",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNTFSSIGLGKR",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T390": {
+    "id": "T390",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNNQGC1KTXRX",
+    "calibrationDueDate": "2025-06-15",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T391": {
+    "id": "T391",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SN1MO6VCH8MR",
+    "calibrationDueDate": "2025-11-30",
+    "assignedTo": "E2034",
+    "assignedOn": "2025-11-18"
+  },
+  "T392": {
+    "id": "T392",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SN2OF4VL751C",
+    "calibrationDueDate": "2025-07-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T393": {
+    "id": "T393",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SN8Y2VUFHER7",
+    "calibrationDueDate": "2025-06-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T394": {
+    "id": "T394",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNBEIRRK94JJ",
+    "calibrationDueDate": "2025-06-05",
+    "assignedTo": "E2243",
+    "assignedOn": "2025-06-25"
+  },
+  "T395": {
+    "id": "T395",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNEP9NUPPJEY",
+    "calibrationDueDate": "2025-07-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T396": {
+    "id": "T396",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNFDWO8JZ0P1",
+    "calibrationDueDate": "2025-07-21",
+    "assignedTo": "E3109",
+    "assignedOn": "2025-07-01"
+  },
+  "T397": {
+    "id": "T397",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNSKL2TJSZZ2",
+    "calibrationDueDate": "2025-10-17",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T398": {
+    "id": "T398",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNEECRN5LQNZ",
+    "calibrationDueDate": "2025-07-22",
+    "assignedTo": "E4227",
+    "assignedOn": "2025-09-01"
+  },
+  "T399": {
+    "id": "T399",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNWKAFLZPILD",
+    "calibrationDueDate": "2025-09-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T400": {
+    "id": "T400",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNDAWJN8D8CT",
+    "calibrationDueDate": "2025-10-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T401": {
+    "id": "T401",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNOTMRN8C6RP",
+    "calibrationDueDate": "2025-06-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T402": {
+    "id": "T402",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNBXIPB8NGH2",
+    "calibrationDueDate": "2025-11-16",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T403": {
+    "id": "T403",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNGLYQS6WZV1",
+    "calibrationDueDate": "2025-07-09",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-11-23"
+  },
+  "T404": {
+    "id": "T404",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNHEPBLGQ2HG",
+    "calibrationDueDate": "2025-05-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T405": {
+    "id": "T405",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNA7WALVSFMQ",
+    "calibrationDueDate": "2025-09-20",
+    "assignedTo": "E2897",
+    "assignedOn": "2025-12-02"
+  },
+  "T406": {
+    "id": "T406",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNFXUFM5JC1J",
+    "calibrationDueDate": "2025-07-02",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T407": {
+    "id": "T407",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNSGTO98NS6L",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": "E5829",
+    "assignedOn": "2025-06-10"
+  },
+  "T408": {
+    "id": "T408",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNMMHQ8TPXB1",
+    "calibrationDueDate": "2025-09-02",
+    "assignedTo": "E5788",
+    "assignedOn": "2025-08-09"
+  },
+  "T409": {
+    "id": "T409",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNO0JE0LEQAP",
+    "calibrationDueDate": "2025-06-24",
+    "assignedTo": "E2042",
+    "assignedOn": "2025-12-03"
+  },
+  "T410": {
+    "id": "T410",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNNQBKINSTSR",
+    "calibrationDueDate": "2025-10-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T411": {
+    "id": "T411",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNVRR6UNSJ8I",
+    "calibrationDueDate": "2025-06-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T412": {
+    "id": "T412",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNDVVMGTMQIO",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": "E3123",
+    "assignedOn": "2025-07-29"
+  },
+  "T413": {
+    "id": "T413",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNUOVFPNW87V",
+    "calibrationDueDate": "2025-07-31",
+    "assignedTo": "E4854",
+    "assignedOn": "2025-10-04"
+  },
+  "T414": {
+    "id": "T414",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNUFRPO6OVTM",
+    "calibrationDueDate": "2025-09-11",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T415": {
+    "id": "T415",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNJZLVA9VC9V",
+    "calibrationDueDate": "2025-05-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T416": {
+    "id": "T416",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNL7ZFMW3CDL",
+    "calibrationDueDate": "2025-09-02",
+    "assignedTo": "E2432",
+    "assignedOn": "2025-07-12"
+  },
+  "T417": {
+    "id": "T417",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNYBB8TZXTB7",
+    "calibrationDueDate": "2025-10-10",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T418": {
+    "id": "T418",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNQJP1A5J7LZ",
+    "calibrationDueDate": "2025-06-14",
+    "assignedTo": "E4926",
+    "assignedOn": "2025-12-01"
+  },
+  "T419": {
+    "id": "T419",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNL43ZTPBEPI",
+    "calibrationDueDate": "2025-08-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T420": {
+    "id": "T420",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNE8ZJE556TA",
+    "calibrationDueDate": "2025-09-25",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T421": {
+    "id": "T421",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNVYENVUSD7U",
+    "calibrationDueDate": "2025-09-07",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T422": {
+    "id": "T422",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNZ3OOBY8VYF",
+    "calibrationDueDate": "2025-08-09",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T423": {
+    "id": "T423",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNOVEGJSEUCO",
+    "calibrationDueDate": "2025-10-02",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T424": {
+    "id": "T424",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNBB6RQ8ZOO4",
+    "calibrationDueDate": "2025-10-24",
+    "assignedTo": "E4036",
+    "assignedOn": "2025-08-19"
+  },
+  "T425": {
+    "id": "T425",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNSF7VYYNUVQ",
+    "calibrationDueDate": "2025-08-26",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T426": {
+    "id": "T426",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNY9A8J8UTL9",
+    "calibrationDueDate": "2025-06-30",
+    "assignedTo": "E5258",
+    "assignedOn": "2025-10-10"
+  },
+  "T427": {
+    "id": "T427",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNHFI1VKBJAK",
+    "calibrationDueDate": "2025-09-18",
+    "assignedTo": "E5141",
+    "assignedOn": "2025-08-20"
+  },
+  "T428": {
+    "id": "T428",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNVWXYJHY2XG",
+    "calibrationDueDate": "2025-09-21",
+    "assignedTo": "E5801",
+    "assignedOn": "2025-09-09"
+  },
+  "T429": {
+    "id": "T429",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNCUC2GKEG17",
+    "calibrationDueDate": "2025-11-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T430": {
+    "id": "T430",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SN4CB9Q9GGLI",
+    "calibrationDueDate": "2025-10-17",
+    "assignedTo": "E2399",
+    "assignedOn": "2025-09-05"
+  },
+  "T431": {
+    "id": "T431",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNIKMBJY4JQO",
+    "calibrationDueDate": "2025-06-23",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T432": {
+    "id": "T432",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNMYCJDETTBE",
+    "calibrationDueDate": "2025-08-06",
+    "assignedTo": "E4730",
+    "assignedOn": "2025-11-12"
+  },
+  "T433": {
+    "id": "T433",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNPIB1IW6C6Z",
+    "calibrationDueDate": "2025-11-12",
+    "assignedTo": "E5964",
+    "assignedOn": "2025-09-20"
+  },
+  "T434": {
+    "id": "T434",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNVLHEI2UIHO",
+    "calibrationDueDate": "2025-07-25",
+    "assignedTo": "E5538",
+    "assignedOn": "2025-11-15"
+  },
+  "T435": {
+    "id": "T435",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNMUZRHJOHUZ",
+    "calibrationDueDate": "2025-07-10",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-06-13"
+  },
+  "T436": {
+    "id": "T436",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNF51CTXASMS",
+    "calibrationDueDate": "2025-10-20",
+    "assignedTo": "E5258",
+    "assignedOn": "2025-08-05"
+  },
+  "T437": {
+    "id": "T437",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNHY9ZW6MALM",
+    "calibrationDueDate": "2025-06-26",
+    "assignedTo": "E2132",
+    "assignedOn": "2025-09-23"
+  },
+  "T438": {
+    "id": "T438",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNHO7AOB5OHU",
+    "calibrationDueDate": "2025-11-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T439": {
+    "id": "T439",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNECAIYR4L5C",
+    "calibrationDueDate": "2025-08-21",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T440": {
+    "id": "T440",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNTD5LPSWMHS",
+    "calibrationDueDate": "2025-07-05",
+    "assignedTo": "E5801",
+    "assignedOn": "2025-10-11"
+  },
+  "T441": {
+    "id": "T441",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNRXJ796NGHH",
+    "calibrationDueDate": "2025-08-31",
+    "assignedTo": "E3546",
+    "assignedOn": "2025-08-23"
+  },
+  "T442": {
+    "id": "T442",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNZJME83XOED",
+    "calibrationDueDate": "2025-09-04",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T443": {
+    "id": "T443",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SN1VH7GXNL7X",
+    "calibrationDueDate": "2025-10-14",
+    "assignedTo": "E3951",
+    "assignedOn": "2025-09-13"
+  },
+  "T444": {
+    "id": "T444",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNXQX8M7YUA1",
+    "calibrationDueDate": "2025-09-28",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T445": {
+    "id": "T445",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNZQ3D9T9QBS",
+    "calibrationDueDate": "2025-09-24",
+    "assignedTo": "E4829",
+    "assignedOn": "2025-07-15"
+  },
+  "T446": {
+    "id": "T446",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNR5TCLCDUIK",
+    "calibrationDueDate": "2025-06-28",
+    "assignedTo": "E4400",
+    "assignedOn": "2025-07-18"
+  },
+  "T447": {
+    "id": "T447",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNVLWXWXGBC0",
+    "calibrationDueDate": "2025-06-13",
+    "assignedTo": "E4537",
+    "assignedOn": "2025-06-09"
+  },
+  "T448": {
+    "id": "T448",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNNXMRPZOYQS",
+    "calibrationDueDate": "2025-06-19",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T449": {
+    "id": "T449",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNPV6E5G8IZB",
+    "calibrationDueDate": "2025-09-25",
+    "assignedTo": "E4995",
+    "assignedOn": "2025-10-14"
+  },
+  "T450": {
+    "id": "T450",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNFPNRQA6TKU",
+    "calibrationDueDate": "2025-07-03",
+    "assignedTo": "E3809",
+    "assignedOn": "2025-07-15"
+  },
+  "T451": {
+    "id": "T451",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNH5XEVV6C3D",
+    "calibrationDueDate": "2025-08-17",
+    "assignedTo": "E5836",
+    "assignedOn": "2025-10-17"
+  },
+  "T452": {
+    "id": "T452",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNKEYL75PSV6",
+    "calibrationDueDate": "2025-05-30",
+    "assignedTo": "E5391",
+    "assignedOn": "2025-11-30"
+  },
+  "T453": {
+    "id": "T453",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNSQCJKTXZY0",
+    "calibrationDueDate": "2025-06-09",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T454": {
+    "id": "T454",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNB4SSRADPBP",
+    "calibrationDueDate": "2025-10-10",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T455": {
+    "id": "T455",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNBIENUIE5ET",
+    "calibrationDueDate": "2025-11-09",
+    "assignedTo": "E2034",
+    "assignedOn": "2025-09-21"
+  },
+  "T456": {
+    "id": "T456",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNH0ALBZ4PZJ",
+    "calibrationDueDate": "2025-09-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T457": {
+    "id": "T457",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNNT9LNLJTXW",
+    "calibrationDueDate": "2025-09-25",
+    "assignedTo": "E3427",
+    "assignedOn": "2025-07-25"
+  },
+  "T458": {
+    "id": "T458",
+    "type": "Tensioner",
+    "model": "TN-100",
+    "serialNumber": "SNHACHP0ZKFI",
+    "calibrationDueDate": "2025-09-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T459": {
+    "id": "T459",
+    "type": "Tensioner",
+    "model": "TN-300",
+    "serialNumber": "SNLRKSPGCBF6",
+    "calibrationDueDate": "2025-12-01",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T460": {
+    "id": "T460",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN8W5C6ZZVDH",
+    "calibrationDueDate": "2025-07-31",
+    "assignedTo": "E5601",
+    "assignedOn": "2025-10-22"
+  },
+  "T461": {
+    "id": "T461",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNNGXQ5KAJCB",
+    "calibrationDueDate": "2025-07-09",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T462": {
+    "id": "T462",
+    "type": "HydraulicWrench",
+    "model": "HW-100",
+    "serialNumber": "SNSBMSHNVMLJ",
+    "calibrationDueDate": "2025-07-07",
+    "assignedTo": "E2186",
+    "assignedOn": "2025-06-27"
+  },
+  "T463": {
+    "id": "T463",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SN3OJPIWTCVX",
+    "calibrationDueDate": "2025-08-31",
+    "assignedTo": "E4573",
+    "assignedOn": "2025-08-16"
+  },
+  "T464": {
+    "id": "T464",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNGXLFWC77C2",
+    "calibrationDueDate": "2025-08-13",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T465": {
+    "id": "T465",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNY9CXYXKQBS",
+    "calibrationDueDate": "2025-05-19",
+    "assignedTo": "E3808",
+    "assignedOn": "2025-10-07"
+  },
+  "T466": {
+    "id": "T466",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNGM7KU8WAQZ",
+    "calibrationDueDate": "2025-11-16",
+    "assignedTo": "E3773",
+    "assignedOn": "2025-10-13"
+  },
+  "T467": {
+    "id": "T467",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SNVNLCDHSCKN",
+    "calibrationDueDate": "2025-08-08",
+    "assignedTo": "E4039",
+    "assignedOn": "2025-07-01"
+  },
+  "T468": {
+    "id": "T468",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNYMFTWUISQF",
+    "calibrationDueDate": "2025-08-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T469": {
+    "id": "T469",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNOVPMPHSVG1",
+    "calibrationDueDate": "2025-08-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T470": {
+    "id": "T470",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN3F6SOEAL1O",
+    "calibrationDueDate": "2025-10-22",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T471": {
+    "id": "T471",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SNAHIV6YY9AJ",
+    "calibrationDueDate": "2025-09-09",
+    "assignedTo": "E2135",
+    "assignedOn": "2025-10-25"
+  },
+  "T472": {
+    "id": "T472",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNXOT7UEWUXY",
+    "calibrationDueDate": "2025-10-03",
+    "assignedTo": "E3276",
+    "assignedOn": "2025-10-15"
+  },
+  "T473": {
+    "id": "T473",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNYR67VBSFMF",
+    "calibrationDueDate": "2025-07-10",
+    "assignedTo": "E4400",
+    "assignedOn": "2025-09-23"
+  },
+  "T474": {
+    "id": "T474",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SN805WNFVJXH",
+    "calibrationDueDate": "2025-05-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T475": {
+    "id": "T475",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNZF9BJW2VCP",
+    "calibrationDueDate": "2025-08-09",
+    "assignedTo": "E3173",
+    "assignedOn": "2025-06-22"
+  },
+  "T476": {
+    "id": "T476",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SND1II6NKZC3",
+    "calibrationDueDate": "2025-08-09",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T477": {
+    "id": "T477",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNRZZ2CSSSQG",
+    "calibrationDueDate": "2025-11-25",
+    "assignedTo": "E3123",
+    "assignedOn": "2025-06-24"
+  },
+  "T478": {
+    "id": "T478",
+    "type": "TorqueMultiplier",
+    "model": "TM-200",
+    "serialNumber": "SNMRZU63VTZE",
+    "calibrationDueDate": "2025-10-04",
+    "assignedTo": "E3385",
+    "assignedOn": "2025-11-23"
+  },
+  "T479": {
+    "id": "T479",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNJKMCM4DGWR",
+    "calibrationDueDate": "2025-07-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T480": {
+    "id": "T480",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNJJJAICUI9M",
+    "calibrationDueDate": "2025-09-03",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T481": {
+    "id": "T481",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNNS6W26FZ1R",
+    "calibrationDueDate": "2025-11-17",
+    "assignedTo": "E3809",
+    "assignedOn": "2025-09-21"
+  },
+  "T482": {
+    "id": "T482",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNISE16FZXEI",
+    "calibrationDueDate": "2025-11-25",
+    "assignedTo": "E3666",
+    "assignedOn": "2025-11-17"
+  },
+  "T483": {
+    "id": "T483",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNJXB2H24ZTF",
+    "calibrationDueDate": "2025-11-14",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T484": {
+    "id": "T484",
+    "type": "Tensioner",
+    "model": "TN-200",
+    "serialNumber": "SNNHRJLCE3RX",
+    "calibrationDueDate": "2025-05-09",
+    "assignedTo": "E5258",
+    "assignedOn": "2025-08-18"
+  },
+  "T485": {
+    "id": "T485",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNF8YCEHFU4Q",
+    "calibrationDueDate": "2025-07-27",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T486": {
+    "id": "T486",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SN54ISTPQZHU",
+    "calibrationDueDate": "2025-09-08",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T487": {
+    "id": "T487",
+    "type": "TorqueGun",
+    "model": "TG-300",
+    "serialNumber": "SNQZFN7DFAB2",
+    "calibrationDueDate": "2025-08-15",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T488": {
+    "id": "T488",
+    "type": "HydraulicWrench",
+    "model": "HW-200",
+    "serialNumber": "SNMR5M1SPWYZ",
+    "calibrationDueDate": "2025-11-18",
+    "assignedTo": "E3427",
+    "assignedOn": "2025-07-03"
+  },
+  "T489": {
+    "id": "T489",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNBTZLXPMOEB",
+    "calibrationDueDate": "2025-10-13",
+    "assignedTo": "E4537",
+    "assignedOn": "2025-07-18"
+  },
+  "T490": {
+    "id": "T490",
+    "type": "TorqueMultiplier",
+    "model": "TM-100",
+    "serialNumber": "SN9NJYJDKPC0",
+    "calibrationDueDate": "2025-06-20",
+    "assignedTo": "E4545",
+    "assignedOn": "2025-06-08"
+  },
+  "T491": {
+    "id": "T491",
+    "type": "PneumaticWrench",
+    "model": "PW-300",
+    "serialNumber": "SNUQ3SDUZROK",
+    "calibrationDueDate": "2025-10-31",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T492": {
+    "id": "T492",
+    "type": "PneumaticWrench",
+    "model": "PW-200",
+    "serialNumber": "SNM37KVB71KQ",
+    "calibrationDueDate": "2025-11-20",
+    "assignedTo": "E3546",
+    "assignedOn": "2025-08-31"
+  },
+  "T493": {
+    "id": "T493",
+    "type": "PneumaticWrench",
+    "model": "PW-100",
+    "serialNumber": "SNOTB3V0ZFNF",
+    "calibrationDueDate": "2025-05-13",
+    "assignedTo": "E2519",
+    "assignedOn": "2025-10-11"
+  },
+  "T494": {
+    "id": "T494",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SN4NDOI1Z7UT",
+    "calibrationDueDate": "2025-09-05",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T495": {
+    "id": "T495",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SNCUSOXAZJGU",
+    "calibrationDueDate": "2025-06-13",
+    "assignedTo": "E5836",
+    "assignedOn": "2025-06-10"
+  },
+  "T496": {
+    "id": "T496",
+    "type": "TorqueGun",
+    "model": "TG-100",
+    "serialNumber": "SNHR78EV2D61",
+    "calibrationDueDate": "2025-11-29",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T497": {
+    "id": "T497",
+    "type": "TorqueMultiplier",
+    "model": "TM-300",
+    "serialNumber": "SN1LCMFHLKCY",
+    "calibrationDueDate": "2025-07-12",
+    "assignedTo": "E2432",
+    "assignedOn": "2025-09-23"
+  },
+  "T498": {
+    "id": "T498",
+    "type": "HydraulicWrench",
+    "model": "HW-300",
+    "serialNumber": "SN0PUXFDD3SB",
+    "calibrationDueDate": "2025-06-17",
+    "assignedTo": "E3534",
+    "assignedOn": "2025-10-16"
+  },
+  "T499": {
+    "id": "T499",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNMDRAXAJADT",
+    "calibrationDueDate": "2025-10-06",
+    "assignedTo": null,
+    "assignedOn": null
+  },
+  "T500": {
+    "id": "T500",
+    "type": "TorqueGun",
+    "model": "TG-200",
+    "serialNumber": "SNL2MEYNXZVL",
+    "calibrationDueDate": "2025-10-04",
+    "assignedTo": null,
+    "assignedOn": null
+  }
+}

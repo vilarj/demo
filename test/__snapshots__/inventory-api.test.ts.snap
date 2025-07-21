@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MockInventorySystem assign assignTool assigns tool if unassigned and not overdue 1`] = `
+{
+  "result": {
+    "ok": true,
+    "tool": {
+      "assignedOn": "2025-06-08",
+      "assignedTo": "E1",
+      "calibrationDueDate": "2025-06-08",
+      "id": "T1",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  },
+  "tool": {
+    "assignedOn": "2025-06-08",
+    "assignedTo": "E1",
+    "calibrationDueDate": "2025-06-08",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;
+
+exports[`MockInventorySystem assign assignTool invalid already assigned to another employee 1`] = `
+{
+  "result": {
+    "error": "Tool with ID T1 is already assigned to another employee: E2.",
+    "ok": false,
+  },
+  "tool": {
+    "assignedOn": "2025-06-08",
+    "assignedTo": "E2",
+    "calibrationDueDate": "2025-06-08",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;
+
+exports[`MockInventorySystem assign assignTool invalid if already assigned to same employee 1`] = `
+{
+  "result": {
+    "error": "Tool with ID T1 is already assigned to employee E1.",
+    "ok": false,
+  },
+  "tool": {
+    "assignedOn": "2025-06-08",
+    "assignedTo": "E1",
+    "calibrationDueDate": "2025-06-08",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;
+
+exports[`MockInventorySystem assign assignTool invalid if tool is overdue for calibration 1`] = `
+{
+  "result": {
+    "error": "Tool with ID T1 is overdue for calibration and cannot be assigned.",
+    "ok": false,
+  },
+  "tool": {
+    "assignedOn": null,
+    "assignedTo": null,
+    "calibrationDueDate": "2000-01-01",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;
+
+exports[`MockInventorySystem getEmployee returns a deep clone of the employee if it exists 1`] = `
+{
+  "result": {
+    "id": "E1",
+    "name": "Alice",
+  },
+}
+`;
+
+exports[`MockInventorySystem getEmployee returns null if the employee does not exist 1`] = `
+{
+  "result": null,
+}
+`;
+
+exports[`MockInventorySystem getEmployees returns a deep clone of all employees 1`] = `
+{
+  "result": [
+    {
+      "id": "E1",
+      "name": "Alice",
+    },
+  ],
+}
+`;
+
+exports[`MockInventorySystem getEmployees returns an empty array if there are no employees 1`] = `
+{
+  "result": [],
+}
+`;
+
+exports[`MockInventorySystem getTool returns a deep clone of the tool if it exists 1`] = `
+{
+  "result": {
+    "assignedOn": null,
+    "assignedTo": null,
+    "calibrationDueDate": "2025-06-08",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;
+
+exports[`MockInventorySystem getTool returns null if the tool does not exist 1`] = `
+{
+  "result": null,
+}
+`;
+
+exports[`MockInventorySystem getTools (filtering) all filter 1`] = `
+{
+  "result": [
+    {
+      "assignedOn": null,
+      "assignedTo": null,
+      "calibrationDueDate": "2025-06-08",
+      "id": "T1",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+    {
+      "assignedOn": "2025-06-01",
+      "assignedTo": "E1",
+      "calibrationDueDate": "2025-06-08",
+      "id": "T2",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  ],
+}
+`;
+
+exports[`MockInventorySystem getTools (filtering) assigned filter 1`] = `
+{
+  "result": [
+    {
+      "assignedOn": "2025-06-01",
+      "assignedTo": "E1",
+      "calibrationDueDate": "2025-06-08",
+      "id": "T2",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  ],
+}
+`;
+
+exports[`MockInventorySystem getTools (filtering) available filter 1`] = `
+{
+  "result": [
+    {
+      "assignedOn": null,
+      "assignedTo": null,
+      "calibrationDueDate": "2025-06-08",
+      "id": "T1",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  ],
+}
+`;
+
+exports[`MockInventorySystem getTools (filtering) return all tools by default 1`] = `
+{
+  "result": [
+    {
+      "assignedOn": null,
+      "assignedTo": null,
+      "calibrationDueDate": "2025-06-08",
+      "id": "T1",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+    {
+      "assignedOn": "2025-06-01",
+      "assignedTo": "E1",
+      "calibrationDueDate": "2025-06-08",
+      "id": "T2",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  ],
+}
+`;
+
+exports[`MockInventorySystem getTools returns a deep clone of all tools 1`] = `
+{
+  "result": [
+    {
+      "assignedOn": null,
+      "assignedTo": null,
+      "calibrationDueDate": "2025-06-08",
+      "id": "T1",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  ],
+}
+`;
+
+exports[`MockInventorySystem getTools returns an empty array if there are no tools 1`] = `
+{
+  "result": [],
+}
+`;
+
+exports[`MockInventorySystem reassign reassignTool invalid if not assigned 1`] = `
+{
+  "result": {
+    "error": "Tool with ID T1 is not currently assigned to any employee.",
+    "ok": false,
+  },
+  "tool": {
+    "assignedOn": null,
+    "assignedTo": null,
+    "calibrationDueDate": "2025-06-08",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;
+
+exports[`MockInventorySystem reassign reassignTool reassigns if already assigned 1`] = `
+{
+  "result": {
+    "ok": true,
+    "tool": {
+      "assignedOn": "2025-06-08",
+      "assignedTo": "E1",
+      "calibrationDueDate": "2025-06-08",
+      "id": "T1",
+      "model": "HW-1",
+      "serialNumber": "SN123",
+      "type": "HydraulicWrench",
+    },
+  },
+  "tool": {
+    "assignedOn": "2025-06-08",
+    "assignedTo": "E1",
+    "calibrationDueDate": "2025-06-08",
+    "id": "T1",
+    "model": "HW-1",
+    "serialNumber": "SN123",
+    "type": "HydraulicWrench",
+  },
+}
+`;

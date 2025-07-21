@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.ant-menu-dark {
+  margin: 30px 0 0 0;
+  padding: 0 10px;
+}
