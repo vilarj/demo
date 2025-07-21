@@ -3,6 +3,45 @@ import { Button, Space } from 'antd';
 import React from 'react';
 import { IToolActionsProps } from '../interfaces/IToolActionsProps';
 
+/**
+ * `EditAction` is a functional component that renders a set of action buttons for managing
+ * tool assignments within an inventory table. These actions include "Assign", "Reassign",
+ * "Unassign", "Save", and "Cancel", with their visibility and enabled states
+ * dynamically controlled based on the current editing context and tool status.
+ *
+ * @component
+ * @param {IToolActionsProps} props - The properties passed to the component.
+ * @param {boolean} props.isEditing - A boolean indicating if the current row is in an editing state.
+ * @param {boolean} props.isAssigned - A boolean indicating if the tool is currently assigned to someone.
+ * @param {boolean} props.calibrationExpired - A boolean indicating if the tool's calibration has expired.
+ * @param {boolean} props.isOtherRowEditing - A boolean indicating if another row in the table is currently being edited.
+ * @param {boolean} props.hasChanges - A boolean indicating if there are unsaved changes in the current editing row.
+ * @param {() => void} props.onEdit - Callback function to be invoked when the "Assign" or "Reassign" button is clicked,
+ * initiating the editing mode for the row.
+ * @param {() => void} props.onSave - Callback function to be invoked when the "Save" button is clicked,
+ * persisting the changes made in editing mode.
+ * @param {() => void} props.onCancel - Callback function to be invoked when the "Cancel" button is clicked,
+ * discarding changes and exiting editing mode.
+ * @param {() => void} props.onUnassign - Callback function to be invoked when the "Unassign" button is clicked,
+ * removing the current assignment of the tool.
+ *
+ * @returns {React.FC<IToolActionsProps>} A React functional component displaying action buttons.
+ *
+ * @example
+ * ```tsx
+ * <EditAction
+ * isEditing={false}
+ * isAssigned={true}
+ * calibrationExpired={false}
+ * isOtherRowEditing={false}
+ * hasChanges={false}
+ * onEdit={() => console.log('Edit clicked')}
+ * onSave={() => console.log('Save clicked')}
+ * onCancel={() => console.log('Cancel clicked')}
+ * onUnassign={() => console.log('Unassign clicked')}
+ * />
+ * ```
+ */
 const EditAction: React.FC<IToolActionsProps> = React.memo(
   ({
     isEditing,
@@ -17,36 +56,35 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
   }) => {
     if (isEditing) {
       return (
-        <Space>
+        <Space size="small" className="flex justify-center w-full">
           <Button
-            type="text"
             size="small"
             icon={<SaveOutlined />}
             onClick={onSave}
             disabled={!hasChanges}
-            style={{ color: hasChanges ? 'green' : 'gray' }}
+            className={`px-1 !bg-[#00aff0] !text-white !hover:bg-[#0099cc] ${!hasChanges ? '!bg-gray-200 !text-gray-400 !cursor-not-allowed' : ''}`}
           >
-            save
+            Save
           </Button>
-          <span>|</span>
-          <Button type="text" size="small" icon={<CloseOutlined />} onClick={onCancel} style={{ color: 'red' }}>
-            cancel
+          <span className="text-gray-300">|</span>
+          <Button
+            size="small"
+            icon={<CloseOutlined />}
+            onClick={onCancel}
+            className="px-1 !bg-red-500 !text-white !hover:bg-red-600"
+          >
+            Cancel
           </Button>
         </Space>
       );
     }
 
-    const buttonStyle = isOtherRowEditing ? { color: '#d9d9d9' } : {};
-
     return (
-      <Space>
+      <Space size="small" className="flex justify-center w-full">
         {isAssigned ? (
           <>
             <Button
-              style={{
-                ...buttonStyle,
-                color: calibrationExpired || isOtherRowEditing ? '#d9d9d9' : 'blue',
-              }}
+              className={`px-1 ${calibrationExpired || isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
               type="link"
               size="small"
               onClick={onEdit}
@@ -54,12 +92,9 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
             >
               reassign
             </Button>
-            <span style={buttonStyle}>|</span>
+            <span className="text-gray-300">|</span>
             <Button
-              style={{
-                ...buttonStyle,
-                color: isOtherRowEditing ? '#d9d9d9' : 'blue',
-              }}
+              className={`px-1 ${isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
               type="link"
               size="small"
               onClick={onUnassign}
@@ -70,10 +105,7 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
           </>
         ) : (
           <Button
-            style={{
-              ...buttonStyle,
-              color: calibrationExpired || isOtherRowEditing ? '#d9d9d9' : 'blue',
-            }}
+            className={`px-1 ${calibrationExpired || isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
             type="link"
             size="small"
             onClick={onEdit}
@@ -86,7 +118,5 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
     );
   },
 );
-
-EditAction.displayName = 'EditAction';
 
 export default EditAction;
