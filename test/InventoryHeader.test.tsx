@@ -7,6 +7,7 @@ import InventoryHeader from '../src/components/InventoryHeader';
 interface MockInventoryTabsProps {
   activeTab: TabType;
   onTabChange: (tab: TabType) => void;
+  inventorySystem: InventoryAPI;
 }
 jest.mock('../src/components/InventoryTabs', () => {
   return function MockInventoryTabs({ activeTab, onTabChange }: MockInventoryTabsProps) {
@@ -27,8 +28,12 @@ jest.mock('../src/components/InventoryTabs', () => {
 });
 
 interface MockInventorySearchProps {
+  inventorySystem: InventoryAPI;
+  onSearchResults: (results: any[]) => void;
   onSearchChange?: (value: string) => void;
   placeholder?: string;
+  className?: string;
+  debounceMs?: number;
   filter?: 'all' | 'assigned' | 'available';
 }
 jest.mock('../src/components/InventorySearch', () => {
