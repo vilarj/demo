@@ -1,89 +1,8 @@
 import { IPaginatedResponse } from './interfaces/IPaginatedResponse';
 import { IPaginationOptions } from './interfaces/IPaginationOptions';
-
-/**
- * Defines the possible types of tools in the inventory system.
- */
-export type ToolType = 'HydraulicWrench' | 'PneumaticWrench' | 'Tensioner' | 'TorqueGun' | 'TorqueMultiplier';
-
-// Type aliases for date components to enhance readability for ISO8601Date.
-type YEAR = number;
-type MONTH = number;
-type DAY = number;
-
-/**
- * Represents a date string in ISO 8601 format (YYYY-MM-DD).
- * @example "2024-07-21"
- */
-export type ISO8601Date = `${YEAR}-${MONTH}-${DAY}`;
-
-/**
- * Represents a unique identifier for an employee.
- * @example "E12345"
- */
-export type EmployeeId = `E${number}`;
-
-/**
- * Represents an employee in the system.
- */
-export type Employee = {
-  /** The unique ID of the employee. */
-  id: EmployeeId;
-  /** The full name of the employee. */
-  name: string;
-};
-
-/**
- * Represents a unique identifier for a tool.
- * @example "T67890"
- */
-export type ToolId = `T${number}`;
-
-/**
- * Represents a tool in the inventory system.
- */
-export type Tool = {
-  /** The unique ID of the tool. */
-  id: ToolId;
-  /** The category or type of the tool. */
-  type: ToolType;
-  /** The specific model of the tool. */
-  model: string;
-  /** The serial number of the tool. */
-  serialNumber: string;
-  /** The date by which the tool must be calibrated, in ISO 8601 format. */
-  calibrationDueDate: ISO8601Date;
-  /** The ID of the employee to whom the tool is currently assigned, if any. */
-  assignedTo?: EmployeeId | null;
-  /** The date on which the tool was assigned, in ISO 8601 format, if assigned. */
-  assignedOn?: ISO8601Date | null;
-};
-
-/**
- * A dictionary-like type where keys are `EmployeeId` and values are `Employee` objects.
- * This provides quick lookup for employee details by their ID.
- */
-export type EmployeeDirectory = Record<EmployeeId, Employee>;
-
-/**
- * A dictionary-like type where keys are `ToolId` and values are `Tool` objects.
- * This provides quick lookup for tool details by their ID.
- */
-export type ToolInventory = Record<ToolId, Tool>;
-
-/**
- * Represents the result of an assignment operation.
- * Can be `ok: true` with the updated `tool` object on success,
- * or `ok: false` with an `error` message on failure.
- */
-export type AssigmentResult = { ok: true; tool: Tool } | { ok: false; error: string };
-
-/**
- * Represents the result of an unassignment operation.
- * Can be `ok: true` with the updated `tool` object on success,
- * or `ok: false` with an `error` message on failure.
- */
-export type UnassignResult = { ok: true; tool: Tool } | { ok: false; error: string };
+import { AssigmentResult, ISO8601Date, UnassignResult } from './types/AssignmentType';
+import { Employee, EmployeeDirectory, EmployeeId } from './types/EmployeeInventoryType';
+import { Tool, ToolId, ToolInventory } from './types/ToolInventoryType';
 
 /**
  * `MockInventorySystem` simulates a backend inventory system for managing tools and employees.
@@ -300,8 +219,8 @@ export class MockInventorySystem {
 
     if (sortBy) {
       filteredTools.sort((a, b) => {
-        const aValue = a[sortBy];
-        const bValue = b[sortBy];
+        const aValue = a[sortBy as keyof Tool];
+        const bValue = b[sortBy as keyof Tool];
 
         // Handle null/undefined values for sorting
         if (aValue == null && bValue == null) return 0;
@@ -682,26 +601,32 @@ export class MockInventorySystem {
    * @returns {string} Mock PDF content as a string.
    */
   private generatePDFContent(tool: Tool): string {
+    // Get assigned employee information
     const assignedEmployee = tool.assignedTo ? this.employees[tool.assignedTo] : null;
     const assignedTo = assignedEmployee ? assignedEmployee.name : 'Unassigned';
 
-    return `%PDF-1.4
-1 0 obj
+    // PDF Header - defines the PDF version
+    const pdfHeader = '%PDF-1.4';
+
+    // Document catalog - root of the PDF structure
+    const catalog = `1 0 obj
 <<
 /Type /Catalog
 /Pages 2 0 R
 >>
-endobj
+endobj`;
 
-2 0 obj
+    // Pages object - contains references to all pages
+    const pages = `2 0 obj
 <<
 /Type /Pages
 /Kids [3 0 R]
 /Count 1
 >>
-endobj
+endobj`;
 
-3 0 obj
+    // Page object - defines the actual page properties
+    const pageDefinition = `3 0 obj
 <<
 /Type /Page
 /Parent 2 0 R
@@ -713,9 +638,10 @@ endobj
 >>
 >>
 >>
-endobj
+endobj`;
 
-4 0 obj
+    // Content stream - the actual text content of the certificate
+    const contentStream = `4 0 obj
 <<
 /Length 400
 >>
@@ -744,25 +670,29 @@ BT
 (Generated on: ${MockInventorySystem.today()}) Tj
 ET
 endstream
-endobj
+endobj`;
 
-5 0 obj
+    // Font definition - defines the Helvetica font used
+    const fontDefinition = `5 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /Helvetica
 >>
-endobj
+endobj`;
 
-xref
+    // Cross-reference table - tells PDF reader where to find each object
+    const xrefTable = `xref
 0 6
-0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000262 00000 n 
-0000000713 00000 n 
-trailer
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000262 00000 n
+0000000713 00000 n`;
+
+    // Trailer - points to the root catalog and provides metadata
+    const trailer = `trailer
 <<
 /Size 6
 /Root 1 0 R
@@ -770,5 +700,8 @@ trailer
 startxref
 792
 %%EOF`;
+
+    // Combine all parts into the complete PDF
+    return [pdfHeader, catalog, pages, pageDefinition, contentStream, fontDefinition, xrefTable, trailer].join('\n');
   }
 }

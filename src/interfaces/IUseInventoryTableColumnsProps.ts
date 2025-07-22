@@ -15,6 +15,6 @@ export interface IUseInventoryTableColumnsProps {
   handleSave: () => void;
   handleCancel: () => void;
   handleUnassign: (toolId: string) => void;
-  inputRef: React.RefObject<BaseSelectRef>;
+  inputRef: React.RefObject<BaseSelectRef | null>;
   inventorySystem: MockInventorySystem;
 }
