@@ -2,8 +2,8 @@ import { screen } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { InventoryAPI } from '../src/api';
+import { TabType } from '../src/api/types/TabType';
 import InventoryTabs from '../src/components/InventoryTabs';
-import { TabType } from '../src/types/TabType';
 
 describe('InventoryTabs', () => {
   let mockOnTabChange: jest.Mock;
