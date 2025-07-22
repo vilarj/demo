@@ -71,7 +71,7 @@ export class EmployeeService extends DataStore {
     const totalPages = Math.ceil(total / pageSize);
     const start = (page - 1) * pageSize;
     const end = start + pageSize;
-    const paginatedData = allEmployees.slice(start, end);
+    const paginatedData = structuredClone(allEmployees.slice(start, end));
 
     return {
       data: paginatedData,
@@ -98,8 +98,8 @@ export class EmployeeService extends DataStore {
     if (employee == null) {
       return null;
     }
-    // Return a structured clone to prevent direct modification of internal state
-    return employee;
+    // Return a deep clone to prevent direct modification of internal state
+    return structuredClone(employee);
   }
 
   /**
@@ -109,8 +109,8 @@ export class EmployeeService extends DataStore {
    */
   async getEmployees(): Promise<Employee[]> {
     await DataStore.simulateDelay(this.delay);
-    // Return the employees directly
-    return Object.values(this.employees);
+    // Return deep clones to prevent external modifications
+    return structuredClone(Object.values(this.employees));
   }
 
   /**
@@ -123,7 +123,7 @@ export class EmployeeService extends DataStore {
     await DataStore.simulateDelay(this.delay);
 
     if (!query || query.trim() === '') {
-      return Object.values(this.employees);
+      return structuredClone(Object.values(this.employees));
     }
 
     const searchQuery = query.toLowerCase().trim();
@@ -133,7 +133,7 @@ export class EmployeeService extends DataStore {
       return employee.name.toLowerCase().includes(searchQuery) || employee.id.toLowerCase().includes(searchQuery);
     });
 
-    // Return the employees directly
-    return matchedEmployees;
+    // Return deep clones to prevent external modifications
+    return structuredClone(matchedEmployees);
   }
 }

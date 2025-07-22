@@ -1,37 +1,37 @@
 import { render, screen } from '@testing-library/react';
-import { CalibrationStatus, isCalibrationExpired } from '../src/components/CalibrationStatus';
 import { InventoryAPI } from '../src/api';
+import { CalibrationStatus, isCalibrationExpired } from '../src/components/CalibrationStatus';
 
 describe('CalibrationStatus', () => {
   it('renders correctly for overdue calibration', () => {
-    const InventoryAPI = new InventoryAPI({}, {}, 0);
+    const api = new InventoryAPI({}, {}, 0);
 
-    render(<CalibrationStatus days={-5} toolId="T1" serialNumber="SN123" inventorySystem={InventoryAPI} />);
+    render(<CalibrationStatus days={-5} toolId="T1" serialNumber="SN123" inventorySystem={api} />);
 
     expect(screen.getByText('overdue')).toBeInTheDocument();
     expect(screen.getByRole('button')).toBeInTheDocument();
   });
 
   it('renders correctly for due today', () => {
-    const InventoryAPI = new InventoryAPI({}, {}, 0);
+    const api = new InventoryAPI({}, {}, 0);
 
-    render(<CalibrationStatus days={0} toolId="T1" serialNumber="SN123" inventorySystem={InventoryAPI} />);
+    render(<CalibrationStatus days={0} toolId="T1" serialNumber="SN123" inventorySystem={api} />);
 
     expect(screen.getByText('expires today')).toBeInTheDocument();
   });
 
   it('renders correctly for future dates', () => {
-    const InventoryAPI = new InventoryAPI({}, {}, 0);
+    const api = new InventoryAPI({}, {}, 0);
 
-    render(<CalibrationStatus days={30} toolId="T1" serialNumber="SN123" inventorySystem={InventoryAPI} />);
+    render(<CalibrationStatus days={30} toolId="T1" serialNumber="SN123" inventorySystem={api} />);
 
     expect(screen.getByText('expires in 30 days')).toBeInTheDocument();
   });
 
   it('has download button', () => {
-    const InventoryAPI = new InventoryAPI({}, {}, 0);
+    const api = new InventoryAPI({}, {}, 0);
 
-    render(<CalibrationStatus days={30} toolId="T1" serialNumber="SN123" inventorySystem={InventoryAPI} />);
+    render(<CalibrationStatus days={30} toolId="T1" serialNumber="SN123" inventorySystem={api} />);
 
     const button = screen.getByRole('button');
     expect(button).toBeInTheDocument();

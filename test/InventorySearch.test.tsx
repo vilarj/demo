@@ -1,8 +1,8 @@
 import { screen, waitFor } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import InventorySearch from '../src/components/InventorySearch';
 import { InventoryAPI, type Tool, type ToolId } from '../src/api';
+import InventorySearch from '../src/components/InventorySearch';
 
 describe('InventorySearch', () => {
   const mockTools: Record<ToolId, Tool> = {
@@ -26,29 +26,25 @@ describe('InventorySearch', () => {
     },
   };
 
-  let InventoryAPI: InventoryAPI;
+  let api: InventoryAPI;
   let mockOnSearchResults: jest.Mock;
   let mockOnSearchChange: jest.Mock;
 
   beforeEach(() => {
-    InventoryAPI = new InventoryAPI(mockTools, {}, 0);
+    api = new InventoryAPI(mockTools, {}, 0);
     mockOnSearchResults = jest.fn();
     mockOnSearchChange = jest.fn();
   });
 
   it('renders with default placeholder', () => {
-    render(<InventorySearch inventorySystem={InventoryAPI} onSearchResults={mockOnSearchResults} />);
+    render(<InventorySearch inventorySystem={api} onSearchResults={mockOnSearchResults} />);
 
     expect(screen.getByPlaceholderText('Search')).toBeInTheDocument();
   });
 
   it('renders with custom placeholder', () => {
     render(
-      <InventorySearch
-        inventorySystem={InventoryAPI}
-        onSearchResults={mockOnSearchResults}
-        placeholder="Search tools..."
-      />,
+      <InventorySearch inventorySystem={api} onSearchResults={mockOnSearchResults} placeholder="Search tools..." />,
     );
 
     expect(screen.getByPlaceholderText('Search tools...')).toBeInTheDocument();
@@ -59,7 +55,7 @@ describe('InventorySearch', () => {
 
     render(
       <InventorySearch
-        inventorySystem={InventoryAPI}
+        inventorySystem={api}
         onSearchResults={mockOnSearchResults}
         onSearchChange={mockOnSearchChange}
       />,
@@ -74,9 +70,7 @@ describe('InventorySearch', () => {
   it('performs search after debounce delay', async () => {
     const user = userEvent.setup();
 
-    render(
-      <InventorySearch inventorySystem={InventoryAPI} onSearchResults={mockOnSearchResults} debounceMs={0} />,
-    );
+    render(<InventorySearch inventorySystem={api} onSearchResults={mockOnSearchResults} debounceMs={0} />);
 
     const input = screen.getByRole('searchbox');
     await user.type(input, 'hydraulic');
@@ -89,9 +83,7 @@ describe('InventorySearch', () => {
   it('does not search for empty input', async () => {
     const user = userEvent.setup();
 
-    render(
-      <InventorySearch inventorySystem={InventoryAPI} onSearchResults={mockOnSearchResults} debounceMs={0} />,
-    );
+    render(<InventorySearch inventorySystem={api} onSearchResults={mockOnSearchResults} debounceMs={0} />);
 
     const input = screen.getByRole('searchbox');
     await user.type(input, '   '); // Just spaces
@@ -124,11 +116,7 @@ describe('InventorySearch', () => {
 
   it('applies custom className', () => {
     const { container } = render(
-      <InventorySearch
-        inventorySystem={InventoryAPI}
-        onSearchResults={mockOnSearchResults}
-        className="custom-class"
-      />,
+      <InventorySearch inventorySystem={api} onSearchResults={mockOnSearchResults} className="custom-class" />,
     );
 
     expect(container.querySelector('.custom-class')).toBeInTheDocument();

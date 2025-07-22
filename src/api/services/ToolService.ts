@@ -107,7 +107,7 @@ export class ToolService extends DataStore {
     const totalPages = Math.ceil(total / pageSize);
     const start = (page - 1) * pageSize;
     const end = start + pageSize;
-    const paginatedData = filteredTools.slice(start, end);
+    const paginatedData = structuredClone(filteredTools.slice(start, end));
 
     return {
       data: paginatedData,
@@ -134,8 +134,8 @@ export class ToolService extends DataStore {
     if (tool == null) {
       return null;
     }
-    // Return the tool object directly to allow assignment changes to be reflected
-    return tool;
+    // Return a deep clone to prevent external modifications
+    return structuredClone(tool);
   }
 
   /**
@@ -158,8 +158,8 @@ export class ToolService extends DataStore {
       // This case should ideally be caught by TypeScript's type checking with 'never'
       throw Error(`invalid filter value ${filter satisfies never}`);
     }
-    // Return the tools directly to allow assignment changes to be reflected
-    return matched;
+    // Return deep clones to prevent external modifications
+    return structuredClone(matched);
   }
 
   /**
@@ -177,7 +177,7 @@ export class ToolService extends DataStore {
 
     const allTools = Object.values(this.tools);
     const filtered = this.filterTools(allTools, 'all', query);
-    // Return the tools directly to allow assignment changes to be reflected
-    return filtered;
+    // Return deep clones to prevent external modifications
+    return structuredClone(filtered);
   }
 }

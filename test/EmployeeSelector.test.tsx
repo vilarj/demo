@@ -1,8 +1,8 @@
 import { screen, waitFor } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import EmployeeSelector from '../src/components/EmployeeSelector';
 import { InventoryAPI, type Employee, type EmployeeId } from '../src/api';
+import EmployeeSelector from '../src/components/EmployeeSelector';
 
 describe('EmployeeSelector', () => {
   const mockEmployees: Record<EmployeeId, Employee> = {
@@ -11,25 +11,18 @@ describe('EmployeeSelector', () => {
     E3: { id: 'E3', name: 'Bob Johnson' },
   };
 
-  let InventoryAPI: InventoryAPI;
+  let api: InventoryAPI;
   let mockOnChange: jest.Mock;
   let mockOnSelect: jest.Mock;
 
   beforeEach(() => {
-    InventoryAPI = new InventoryAPI({}, mockEmployees, 0);
+    api = new InventoryAPI({}, mockEmployees, 0);
     mockOnChange = jest.fn();
     mockOnSelect = jest.fn();
   });
 
   it('renders with placeholder text', () => {
-    render(
-      <EmployeeSelector
-        inventorySystem={InventoryAPI}
-        value=""
-        onChange={mockOnChange}
-        onSelect={mockOnSelect}
-      />,
-    );
+    render(<EmployeeSelector inventorySystem={api} value="" onChange={mockOnChange} onSelect={mockOnSelect} />);
 
     expect(screen.getByText('Search employee by name or ID')).toBeInTheDocument();
   });
@@ -37,7 +30,7 @@ describe('EmployeeSelector', () => {
   it('renders with custom placeholder', () => {
     render(
       <EmployeeSelector
-        inventorySystem={InventoryAPI}
+        inventorySystem={api}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -53,7 +46,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={InventoryAPI}
+        inventorySystem={api}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -77,7 +70,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={InventoryAPI}
+        inventorySystem={api}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -106,14 +99,7 @@ describe('EmployeeSelector', () => {
   it('calls onChange when input value changes', async () => {
     const user = userEvent.setup();
 
-    render(
-      <EmployeeSelector
-        inventorySystem={InventoryAPI}
-        value=""
-        onChange={mockOnChange}
-        onSelect={mockOnSelect}
-      />,
-    );
+    render(<EmployeeSelector inventorySystem={api} value="" onChange={mockOnChange} onSelect={mockOnSelect} />);
 
     const input = screen.getByRole('combobox');
     await user.type(input, 'test');
@@ -127,7 +113,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={InventoryAPI}
+        inventorySystem={api}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}

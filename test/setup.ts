@@ -25,6 +25,26 @@ Object.defineProperty(window, 'matchMedia', {
   })),
 });
 
+// Mock getComputedStyle to prevent JSDOM errors
+Object.defineProperty(window, 'getComputedStyle', {
+  value: () => ({
+    getPropertyValue: () => '0px',
+    getPropertyPriority: () => '',
+    setProperty: () => {},
+    removeProperty: () => '',
+    cssText: '',
+    length: 0,
+    parentRule: null,
+    item: () => '',
+  }),
+});
+
+// Mock scrollTo to prevent JSDOM errors
+Object.defineProperty(window, 'scrollTo', {
+  value: () => {},
+  writable: true,
+});
+
 jest.mock('dayjs', () => {
   const actualDayjs: typeof import('dayjs') = jest.requireActual('dayjs');
   const mockDayjs = ((date?: string | number | Date | null | undefined) => {
