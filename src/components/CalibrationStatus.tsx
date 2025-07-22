@@ -20,14 +20,14 @@ import { ToolId } from '../inventory-api';
  * @returns {React.FC<ICalibrationStatusProps>} A React functional component that renders the calibration status.
  *
  * @example
- * ```tsx
+ *
  * <CalibrationStatus
  *   days={-5}
  *   toolId="T12345"
  *   serialNumber="SN123"
  *   inventorySystem={inventorySystem}
  * /> // Renders "5 days overdue" in red with download button
- * ```
+ *
  */
 const CalibrationStatus: React.FC<ICalibrationStatusProps> = React.memo(({ days, toolId, inventorySystem }) => {
   /**

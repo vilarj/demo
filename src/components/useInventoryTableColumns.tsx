@@ -60,7 +60,8 @@ import EmployeeSelector from './EmployeeSelector';
  * - Includes accessibility features with proper ARIA labels and keyboard navigation
  * - Handles calibration status with color-coded indicators and expiration warnings
  * - Implements conditional rendering based on editing state and tool assignment status
- * - All columns include sorting capabilities where appropriate
+ * - All sorting is handled server-side through backend API calls for optimal performance
+ * - Column sorting indicators provide clear feedback with helpful tooltips
  * - Fixed action column for consistent user experience during horizontal scrolling
  *
  * Column Descriptions:
@@ -96,6 +97,8 @@ export function useInventoryTableColumns({
         dataIndex: 'type',
         key: 'type',
         sorter: true,
+        sortDirections: ['ascend', 'descend'],
+        showSorterTooltip: { title: 'Click to sort by tool type' },
         width: 120,
       },
       {
@@ -103,6 +106,8 @@ export function useInventoryTableColumns({
         dataIndex: 'model',
         key: 'model',
         sorter: true,
+        sortDirections: ['ascend', 'descend'],
+        showSorterTooltip: { title: 'Click to sort by model' },
         width: 150,
       },
       {
@@ -110,6 +115,8 @@ export function useInventoryTableColumns({
         dataIndex: 'serialNumber',
         key: 'serialNumber',
         sorter: true,
+        sortDirections: ['ascend', 'descend'],
+        showSorterTooltip: { title: 'Click to sort by serial number' },
         width: 140,
       },
 
@@ -119,6 +126,8 @@ export function useInventoryTableColumns({
         dataIndex: 'calibrationDueDate',
         key: 'calibrationStatus',
         sorter: true,
+        sortDirections: ['ascend', 'descend'],
+        showSorterTooltip: { title: 'Click to sort by calibration due date' },
         width: 160,
         render: (_: string, record: Tool) => {
           // Calculate days until calibration due date
@@ -138,6 +147,8 @@ export function useInventoryTableColumns({
         dataIndex: 'calibrationDueDate',
         key: 'calibrationDueDate',
         sorter: true,
+        sortDirections: ['ascend', 'descend'],
+        showSorterTooltip: { title: 'Click to sort by calibration due date' },
         width: 140,
         render: (date: string) => dayjs(date).format('MMM DD, YYYY'),
       },
@@ -186,6 +197,8 @@ export function useInventoryTableColumns({
         dataIndex: 'assignedOn',
         key: 'assignedOn',
         sorter: true,
+        sortDirections: ['ascend', 'descend'],
+        showSorterTooltip: { title: 'Click to sort by assignment date' },
         width: 140,
         render: (assignedOn: string | null, record: Tool) => {
           const isEditing = editingState?.toolId === record.id;

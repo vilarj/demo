@@ -18,16 +18,7 @@ import { useInventoryTableColumns } from './useInventoryTableColumns';
  * and tool assignment/unassignment functionality.
  *
  * @component
- * @example
- * ```tsx
- * function App() {
- *   return (
- *     <div className="inventory-app">
- *       <InventoryTable />
- *     </div>
- *   );
- * }
- * ```
+ *
  *
  * @returns JSX.Element representing the complete inventory management interface
  *
@@ -48,7 +39,7 @@ import { useInventoryTableColumns } from './useInventoryTableColumns';
  * Key Features:
  * - Tab-based filtering (All/Assigned/Available tools)
  * - Real-time search across tool properties
- * - Server-side sorting with multiple column support
+ * - Server-side sorting with multiple column support for optimal performance
  * - Paginated data display with customizable page sizes
  * - Inline editing for employee assignments and dates
  * - Modal confirmation for tool unassignment
@@ -118,6 +109,7 @@ const InventoryTable: React.FC = () => {
    * Handle table sorting changes
    * Processes Ant Design's sorter result and updates sort state
    * Handles both single and multiple column sorting scenarios
+   * All sorting is processed server-side via the backend API
    */
   const handleTableChange = useCallback(
     (
@@ -129,8 +121,13 @@ const InventoryTable: React.FC = () => {
       const sortObj = Array.isArray(sorter) ? sorter[0] : sorter;
 
       if (sortObj && sortObj.field && sortObj.order) {
+        // Set sort parameters which will trigger a backend API call
         setSortBy(sortObj.field as keyof import('../inventory-api').Tool);
         setSortOrder(sortObj.order === 'ascend' ? 'asc' : 'desc');
+      } else {
+        // Clear sorting when no sorter is provided
+        setSortBy('type'); // Default sort field
+        setSortOrder('asc'); // Default sort order
       }
     },
     [setSortBy, setSortOrder],
