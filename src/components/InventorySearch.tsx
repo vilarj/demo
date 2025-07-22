@@ -19,6 +19,7 @@ import { IInventorySearchProps } from '../interfaces/IInventorySearchProps';
  * @param props.placeholder - Placeholder text for the search input (default: 'Search')
  * @param props.className - CSS class name for styling the input (default: 'w-64')
  * @param props.debounceMs - Debounce delay in milliseconds for search requests (default: 300)
+ * @param props.filter - Filter to apply before searching (default: 'all')
  *
  * @returns A memoized React functional component
  *
@@ -32,6 +33,7 @@ const InventorySearch: React.FC<IInventorySearchProps> = React.memo(
     placeholder = 'Search',
     className = 'w-64',
     debounceMs = 300,
+    filter = 'all',
   }) => {
     // Local state for managing the search input value
     const [searchText, setSearchText] = useState<string>('');
@@ -52,7 +54,7 @@ const InventorySearch: React.FC<IInventorySearchProps> = React.memo(
         }
 
         try {
-          const results = await inventorySystem.search(currentSearchText);
+          const results = await inventorySystem.search(currentSearchText, filter);
           onSearchResults(results);
         } catch (error) {
           console.error('Search failed:', error);
@@ -60,7 +62,7 @@ const InventorySearch: React.FC<IInventorySearchProps> = React.memo(
           onSearchResults([]);
         }
       },
-      [inventorySystem, onSearchResults],
+      [inventorySystem, onSearchResults, filter],
     );
 
     /**

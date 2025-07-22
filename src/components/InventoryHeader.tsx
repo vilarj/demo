@@ -15,7 +15,7 @@ import InventoryTabs from './InventoryTabs';
  *
  * Features:
  *   - Displays inventory tabs for filtering tools
- *   - Provides a search bar for filtering tools by text
+ *   - Provides a search bar for filtering tools by text, respecting the current tab filter
  */
 const InventoryHeader: React.FC<IInventoryHeaderProps> = ({ activeTab, setActiveTab, inventory, setSearchText }) => (
   <Flex className="inventory-header mb-4" justify="space-between" align="center">
@@ -27,7 +27,8 @@ const InventoryHeader: React.FC<IInventoryHeaderProps> = ({ activeTab, setActive
         inventorySystem={inventory}
         onSearchResults={() => {}}
         onSearchChange={setSearchText}
-        placeholder="Search tools..."
+        placeholder="Search"
+        filter={activeTab}
       />
     </div>
   </Flex>

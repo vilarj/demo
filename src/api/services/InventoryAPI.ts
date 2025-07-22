@@ -62,10 +62,11 @@ export class InventoryAPI {
   /**
    * Searches for tools based on a query string across various tool and assigned employee properties.
    * @param {string} query - The search string.
+   * @param {'all' | 'assigned' | 'available'} [filter='all'] - The filter criterion to apply before searching.
    * @returns {Promise<Tool[]>} A promise that resolves to an array of tools matching the query.
    */
-  async search(query: string): Promise<Tool[]> {
-    return this.toolService.search(query);
+  async search(query: string, filter?: 'all' | 'assigned' | 'available'): Promise<Tool[]> {
+    return this.toolService.search(query, filter);
   }
 
   // Employee-related methods

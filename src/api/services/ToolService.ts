@@ -166,9 +166,10 @@ export class ToolService extends DataStore {
    * Searches for tools based on a query string across various tool and assigned employee properties.
    * A simulated network delay is applied before returning the data.
    * @param {string} query - The search string.
+   * @param {'all' | 'assigned' | 'available'} [filter='all'] - The filter criterion to apply before searching.
    * @returns {Promise<Tool[]>} A promise that resolves to an array of tools matching the query.
    */
-  async search(query: string): Promise<Tool[]> {
+  async search(query: string, filter: 'all' | 'assigned' | 'available' = 'all'): Promise<Tool[]> {
     await DataStore.simulateDelay(this.delay);
 
     if (!query || query.trim() === '') {
@@ -176,7 +177,7 @@ export class ToolService extends DataStore {
     }
 
     const allTools = Object.values(this.tools);
-    const filtered = this.filterTools(allTools, 'all', query);
+    const filtered = this.filterTools(allTools, filter, query);
     // Return deep clones to prevent external modifications
     return structuredClone(filtered);
   }

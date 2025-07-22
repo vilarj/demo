@@ -1,10 +1,9 @@
 import { screen } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import InventoryHeader from '../src/components/InventoryHeader';
 import { InventoryAPI } from '../src/api';
-
-import { TabType } from '../src/types/TabType';
+import { TabType } from '../src/api/types/TabType';
+import InventoryHeader from '../src/components/InventoryHeader';
 interface MockInventoryTabsProps {
   activeTab: TabType;
   onTabChange: (tab: TabType) => void;
@@ -30,6 +29,7 @@ jest.mock('../src/components/InventoryTabs', () => {
 interface MockInventorySearchProps {
   onSearchChange?: (value: string) => void;
   placeholder?: string;
+  filter?: 'all' | 'assigned' | 'available';
 }
 jest.mock('../src/components/InventorySearch', () => {
   return function MockInventorySearch({ onSearchChange, placeholder }: MockInventorySearchProps) {
@@ -78,7 +78,7 @@ describe('InventoryHeader', () => {
     );
 
     expect(screen.getByTestId('inventory-search')).toBeInTheDocument();
-    expect(screen.getByPlaceholderText('Search tools...')).toBeInTheDocument();
+    expect(screen.getByPlaceholderText('Search')).toBeInTheDocument();
   });
 
   it('passes correct props to InventoryTabs', () => {

@@ -7,4 +7,5 @@ export interface IInventorySearchProps {
   placeholder?: string;
   className?: string;
   debounceMs?: number;
+  filter?: 'all' | 'assigned' | 'available';
 }
