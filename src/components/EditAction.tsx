@@ -62,7 +62,8 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
             icon={<SaveOutlined />}
             onClick={onSave}
             disabled={!hasChanges}
-            className={`px-1 !bg-[#00aff0] !text-white !hover:bg-[#0099cc] ${!hasChanges ? '!bg-gray-200 !text-gray-400 !cursor-not-allowed' : ''}`}
+            className={`px-2 text-xs !bg-[#00aff0] !text-white !hover:bg-[#0099cc] ${!hasChanges ? '!bg-gray-200 !text-gray-400 !cursor-not-allowed' : ''}`}
+            style={{ minWidth: '60px' }}
           >
             Save
           </Button>
@@ -71,7 +72,8 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
             size="small"
             icon={<CloseOutlined />}
             onClick={onCancel}
-            className="px-1 !bg-red-500 !text-white !hover:bg-red-600"
+            className="px-2 text-xs !bg-red-500 !text-white !hover:bg-red-600"
+            style={{ minWidth: '60px' }}
           >
             Cancel
           </Button>
@@ -80,36 +82,39 @@ const EditAction: React.FC<IToolActionsProps> = React.memo(
     }
 
     return (
-      <Space size="small" className="flex justify-center w-full">
+      <Space size="small" className="flex justify-center w-full flex-wrap">
         {isAssigned ? (
           <>
             <Button
-              className={`px-1 ${calibrationExpired || isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
+              className={`px-2 text-xs ${calibrationExpired || isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
               type="link"
               size="small"
               onClick={onEdit}
               disabled={!!calibrationExpired || !!isOtherRowEditing}
+              style={{ minWidth: '55px', padding: '0 4px' }}
             >
               reassign
             </Button>
             <span className="text-gray-300">|</span>
             <Button
-              className={`px-1 ${isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
+              className={`px-2 text-xs ${isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
               type="link"
               size="small"
               onClick={onUnassign}
               disabled={!!isOtherRowEditing}
+              style={{ minWidth: '55px', padding: '0 4px' }}
             >
               unassign
             </Button>
           </>
         ) : (
           <Button
-            className={`px-1 ${calibrationExpired || isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
+            className={`px-2 text-xs ${calibrationExpired || isOtherRowEditing ? 'text-gray-300' : 'text-[#00aff0]'}`}
             type="link"
             size="small"
             onClick={onEdit}
             disabled={calibrationExpired || !!isOtherRowEditing}
+            style={{ minWidth: '50px', padding: '0 4px' }}
           >
             assign
           </Button>

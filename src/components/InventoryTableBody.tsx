@@ -61,7 +61,7 @@ const InventoryTableBody: React.FC<IInventoryTableBodyProps> = ({ columns, tools
     loading={loading}
     pagination={false}
     onChange={handleTableChange}
-    scroll={{ x: 1200 }}
+    scroll={{ x: 1200, y: 'max-content' }}
     size="small"
     bordered
     className={[
@@ -72,6 +72,9 @@ const InventoryTableBody: React.FC<IInventoryTableBodyProps> = ({ columns, tools
       '[&_.ant-table-thead>tr>th]:border-slate-600',
       '[&_.ant-table-tbody>tr>td]:border-gray-300',
       '[&_.ant-table-tbody>tr:hover>td]:bg-blue-50',
+      // Ensure actions column content doesn't overflow
+      '[&_.ant-table-tbody>tr>td:last-child]:overflow-visible',
+      '[&_.ant-table-tbody>tr>td:last-child]:white-space-nowrap',
     ].join(' ')}
   />
 );

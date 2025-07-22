@@ -16,3 +16,59 @@ body {
   margin: 30px 0 0 0;
   padding: 0 10px;
 }
+
+/* Responsive fixes for Actions column */
+@media (max-width: 768px) {
+  .inventory-table .ant-table-thead > tr > th:last-child,
+  .inventory-table .ant-table-tbody > tr > td:last-child {
+    min-width: 160px !important;
+  }
+
+  .inventory-table .ant-table-tbody > tr > td:last-child .ant-btn {
+    font-size: 11px !important;
+    padding: 0 2px !important;
+  }
+
+  /* Employee selector responsive adjustments */
+  .inventory-table .ant-select {
+    max-width: 200px !important;
+    min-width: 150px !important;
+  }
+
+  .inventory-table .ant-select .ant-select-selector {
+    padding: 0 8px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .inventory-table .ant-table-thead > tr > th:last-child,
+  .inventory-table .ant-table-tbody > tr > td:last-child {
+    min-width: 140px !important;
+  }
+
+  .inventory-table .ant-table-tbody > tr > td:last-child .ant-space-item {
+    font-size: 10px !important;
+  }
+
+  .inventory-table .ant-table-tbody > tr > td:last-child .ant-btn {
+    font-size: 10px !important;
+    padding: 0 1px !important;
+    min-width: 45px !important;
+  }
+
+  /* Employee selector for mobile screens */
+  .inventory-table .ant-select {
+    max-width: 140px !important;
+    min-width: 120px !important;
+    font-size: 12px !important;
+  }
+
+  .inventory-table .ant-select .ant-select-selector {
+    padding: 0 6px !important;
+    font-size: 12px !important;
+  }
+
+  .inventory-table .ant-select .ant-select-selection-placeholder {
+    font-size: 11px !important;
+  }
+}

@@ -161,7 +161,7 @@ export function useInventoryTableColumns({
                 onChange={handleEmployeeSearch}
                 onSelect={handleEmployeeSelect}
                 placeholder="Search or select employee..."
-                style={{ minWidth: 250, width: 300 }}
+                style={{ width: '100%', maxWidth: 300, minWidth: 180 }}
               />
             );
           }
@@ -212,8 +212,8 @@ export function useInventoryTableColumns({
       {
         title: 'Actions',
         key: 'actions',
-        width: 120,
-        fixed: 'right', // Keep actions visible during horizontal scroll
+        width: 160,
+        fixed: 'right',
         align: 'center',
         onCell: () => ({
           style: {
