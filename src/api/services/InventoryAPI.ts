@@ -8,11 +8,6 @@ import { CertificateService } from './CertificateService';
 import { EmployeeService } from './EmployeeService';
 import { ToolService } from './ToolService';
 
-/**
- * Main Inventory API that composes all inventory services.
- * Provides a unified interface while maintaining the same public API as the original MockInventorySystem.
- * This facade pattern allows for better internal organization while preserving backward compatibility.
- */
 export class InventoryAPI {
   private readonly toolService: ToolService;
   private readonly employeeService: EmployeeService;
