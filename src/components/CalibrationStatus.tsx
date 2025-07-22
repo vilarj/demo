@@ -1,8 +1,8 @@
 import { DownloadOutlined } from '@ant-design/icons';
 import { Button, Space, Tooltip, message } from 'antd';
 import React, { useCallback, useMemo, useState } from 'react';
+import { ToolId } from '../api';
 import { ICalibrationStatusProps } from '../interfaces/ICalibrationStatusProps';
-import { ToolId } from '../inventory-api';
 
 /**
  * `CalibrationStatus` displays the calibration status of a tool based on the number of days until its expiration.
@@ -18,15 +18,6 @@ import { ToolId } from '../inventory-api';
  * @param {MockInventorySystem} props.inventorySystem - The inventory system instance for backend operations.
  *
  * @returns {React.FC<ICalibrationStatusProps>} A React functional component that renders the calibration status.
- *
- * @example
- *
- * <CalibrationStatus
- *   days={-5}
- *   toolId="T12345"
- *   serialNumber="SN123"
- *   inventorySystem={inventorySystem}
- * /> // Renders "5 days overdue" in red with download button
  *
  */
 const CalibrationStatus: React.FC<ICalibrationStatusProps> = React.memo(({ days, toolId, inventorySystem }) => {

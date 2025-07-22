@@ -1,10 +1,10 @@
 import dayjs from 'dayjs';
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import employeesData from '../../data/employees.json';
-import toolsData from '../../data/tools.json';
-import { IPaginatedResponse } from '../../interfaces/IPaginatedResponse';
-import { Employee, MockInventorySystem, Tool } from '../../inventory-api';
-import { TabType } from '../../types/TabType';
+import { Employee, InventoryAPI, Tool } from '../../api';
+import employeesData from '../../api/data/employees.json';
+import toolsData from '../../api/data/tools.json';
+import { IPaginatedResponse } from '../../api/interfaces/IPaginatedResponse';
+import { TabType } from '../../api/types/TabType';
 
 const fixToolId = (id: string): `T${number}` => id as `T${number}`;
 const fixEmployeeId = (id: string): `E${number}` => id as `E${number}`;
@@ -38,7 +38,7 @@ export interface UseInventoryDataResult {
   setEmployees: (employees: Employee[]) => void;
   loading: boolean;
   setLoading: (loading: boolean) => void;
-  inventory: MockInventorySystem;
+  inventory: InventoryAPI;
   loadTools: (params: {
     page: number;
     pageSize: number;
@@ -61,7 +61,8 @@ export function useInventoryData(): UseInventoryDataResult {
   const [loading, setLoading] = useState(false);
 
   const inventory = useMemo(() => {
-    return new MockInventorySystem(initialFixedTools, initialFixedEmployees);
+    const instance = new InventoryAPI(initialFixedTools, initialFixedEmployees, 0); // Remove delay
+    return instance;
   }, []);
 
   const loadTools = useCallback(

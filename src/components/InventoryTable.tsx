@@ -10,7 +10,7 @@ import { useInventoryTable } from './hooks/useInventoryTable';
 import { useInventoryTableColumns } from './useInventoryTableColumns';
 
 /**
- * InventoryTable Component
+ * `InventoryTable` Component
  *
  * The main orchestrator component for the inventory management system. This component
  * integrates all sub-components and hooks to provide a complete inventory management
@@ -115,14 +115,14 @@ const InventoryTable: React.FC = () => {
     (
       _tablePagination: TablePaginationConfig,
       _filters: Record<string, FilterValue | null>,
-      sorter: SorterResult<import('../inventory-api').Tool> | SorterResult<import('../inventory-api').Tool>[],
+      sorter: SorterResult<import('../api').Tool> | SorterResult<import('../api').Tool>[],
     ) => {
       // Handle array of sorters (multiple column sorting)
       const sortObj = Array.isArray(sorter) ? sorter[0] : sorter;
 
       if (sortObj && sortObj.field && sortObj.order) {
         // Set sort parameters which will trigger a backend API call
-        setSortBy(sortObj.field as keyof import('../inventory-api').Tool);
+        setSortBy(sortObj.field as keyof import('../api').Tool);
         setSortOrder(sortObj.order === 'ascend' ? 'asc' : 'desc');
       } else {
         // Clear sorting when no sorter is provided

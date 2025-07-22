@@ -26,21 +26,6 @@ import { IToolActionsProps } from '../interfaces/IToolActionsProps';
  * removing the current assignment of the tool.
  *
  * @returns {React.FC<IToolActionsProps>} A React functional component displaying action buttons.
- *
- * @example
- * ```tsx
- * <EditAction
- * isEditing={false}
- * isAssigned={true}
- * calibrationExpired={false}
- * isOtherRowEditing={false}
- * hasChanges={false}
- * onEdit={() => console.log('Edit clicked')}
- * onSave={() => console.log('Save clicked')}
- * onCancel={() => console.log('Cancel clicked')}
- * onUnassign={() => console.log('Unassign clicked')}
- * />
- * ```
  */
 const EditAction: React.FC<IToolActionsProps> = React.memo(
   ({

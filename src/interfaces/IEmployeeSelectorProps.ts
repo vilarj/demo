@@ -1,7 +1,7 @@
-import { MockInventorySystem } from '../inventory-api';
+import { InventoryAPI } from '../api';
 
 export interface IEmployeeSelectorProps {
-  inventorySystem: MockInventorySystem;
+  inventorySystem: InventoryAPI;
   value: string;
   onChange: (value: string) => void;
   onSelect: (value: string) => void;

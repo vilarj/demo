@@ -2,7 +2,7 @@ import { screen } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import UnassignModal from '../src/components/UnassignModal';
-import { type Employee, type EmployeeId, type Tool } from '../src/inventory-api';
+import { type Employee, type EmployeeId, type Tool } from '../src/api';
 
 describe('UnassignModal', () => {
   const mockTool: Tool = {

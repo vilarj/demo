@@ -2,20 +2,20 @@ import { screen } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import InventoryTabs from '../src/components/InventoryTabs';
-import { MockInventorySystem } from '../src/inventory-api';
+import { InventoryAPI } from '../src/api';
 import { TabType } from '../src/types/TabType';
 
 describe('InventoryTabs', () => {
   let mockOnTabChange: jest.Mock;
-  let mockInventorySystem: MockInventorySystem;
+  let InventoryAPI: InventoryAPI;
 
   beforeEach(() => {
     mockOnTabChange = jest.fn();
-    mockInventorySystem = new MockInventorySystem({}, {}, 0);
+    InventoryAPI = new InventoryAPI({}, {}, 0);
   });
 
   it('renders all tab options', () => {
-    render(<InventoryTabs activeTab="all" onTabChange={mockOnTabChange} inventorySystem={mockInventorySystem} />);
+    render(<InventoryTabs activeTab="all" onTabChange={mockOnTabChange} inventorySystem={InventoryAPI} />);
 
     expect(screen.getByText('All')).toBeInTheDocument();
     expect(screen.getByText('Assigned')).toBeInTheDocument();
@@ -23,7 +23,7 @@ describe('InventoryTabs', () => {
   });
 
   it('highlights the active tab', () => {
-    render(<InventoryTabs activeTab="assigned" onTabChange={mockOnTabChange} inventorySystem={mockInventorySystem} />);
+    render(<InventoryTabs activeTab="assigned" onTabChange={mockOnTabChange} inventorySystem={InventoryAPI} />);
 
     const assignedTab = screen.getByRole('tab', { name: /assigned/i });
     expect(assignedTab).toHaveAttribute('aria-selected', 'true');
@@ -32,7 +32,7 @@ describe('InventoryTabs', () => {
   it('calls onTabChange when a tab is clicked', async () => {
     const user = userEvent.setup();
 
-    render(<InventoryTabs activeTab="all" onTabChange={mockOnTabChange} inventorySystem={mockInventorySystem} />);
+    render(<InventoryTabs activeTab="all" onTabChange={mockOnTabChange} inventorySystem={InventoryAPI} />);
 
     const availableTab = screen.getByRole('tab', { name: /available/i });
     await user.click(availableTab);
@@ -41,7 +41,7 @@ describe('InventoryTabs', () => {
   });
 
   it('renders tab labels with bold font', () => {
-    render(<InventoryTabs activeTab="all" onTabChange={mockOnTabChange} inventorySystem={mockInventorySystem} />);
+    render(<InventoryTabs activeTab="all" onTabChange={mockOnTabChange} inventorySystem={InventoryAPI} />);
 
     const allTabLabel = screen.getByText('All');
     expect(allTabLabel).toHaveClass('font-bold');
@@ -52,7 +52,7 @@ describe('InventoryTabs', () => {
 
     tabs.forEach((tab) => {
       const { unmount } = render(
-        <InventoryTabs activeTab={tab} onTabChange={mockOnTabChange} inventorySystem={mockInventorySystem} />,
+        <InventoryTabs activeTab={tab} onTabChange={mockOnTabChange} inventorySystem={InventoryAPI} />,
       );
 
       const activeTab = screen.getByRole('tab', { selected: true });

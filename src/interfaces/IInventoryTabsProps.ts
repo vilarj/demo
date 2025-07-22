@@ -1,8 +1,8 @@
-import { MockInventorySystem } from '../inventory-api';
-import { TabType } from '../types/TabType';
+import { InventoryAPI } from '../api';
+import { TabType } from '../api/types/TabType';
 
 export interface IInventoryTabsProps {
   activeTab: TabType;
   onTabChange: (tab: TabType) => void;
-  inventorySystem: MockInventorySystem;
+  inventorySystem: InventoryAPI;
 }

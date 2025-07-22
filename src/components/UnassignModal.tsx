@@ -5,23 +5,13 @@ import { IUnassignModalProps } from '../interfaces/IUnassignModalProps';
 const { Text, Paragraph } = Typography;
 
 /**
- * UnassignModal Component
+ * `UnassignModal` Component
  *
  * A confirmation dialog modal that allows users to unassign a tool from an employee.
  * Uses Ant Design's Modal component with danger styling to emphasize the destructive nature
  * of the unassign action.
  *
  * @component
- * @example
- * ```tsx
- * <UnassignModal
- *   visible={isModalOpen}
- *   selectedTool={toolToUnassign}
- *   employeeMap={employeeData}
- *   onConfirm={handleUnassign}
- *   onCancel={handleCancel}
- * />
- * ```
  *
  * @param props - Component props
  * @param props.visible - Controls the visibility of the modal

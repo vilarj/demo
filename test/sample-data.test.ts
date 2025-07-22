@@ -3,14 +3,7 @@ import * as path from 'node:path';
 
 import { faker } from '@faker-js/faker';
 
-import {
-  type Employee,
-  type EmployeeId,
-  type ISO8601Date,
-  type Tool,
-  type ToolId,
-  type ToolType,
-} from '../src/inventory-api';
+import { type Employee, type EmployeeId, type ISO8601Date, type Tool, type ToolId, type ToolType } from '../src/api';
 
 function randomToolType(): ToolType {
   const types: ToolType[] = ['HydraulicWrench', 'PneumaticWrench', 'Tensioner', 'TorqueGun', 'TorqueMultiplier'];

@@ -1,8 +1,8 @@
-import { MockInventorySystem } from '../inventory-api';
+import { InventoryAPI } from '../api';
 
 export interface ICalibrationStatusProps {
   days: number;
   toolId: string;
   serialNumber: string;
-  inventorySystem: MockInventorySystem;
+  inventorySystem: InventoryAPI;
 }

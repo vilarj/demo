@@ -1,7 +1,7 @@
-import { MockInventorySystem, Tool } from '../inventory-api';
+import { InventoryAPI, Tool } from '../api';
 
 export interface IInventorySearchProps {
-  inventorySystem: MockInventorySystem;
+  inventorySystem: InventoryAPI;
   onSearchResults: (results: Tool[]) => void;
   onSearchChange?: (value: string) => void;
   placeholder?: string;

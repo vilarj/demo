@@ -1,7 +1,7 @@
 import { TablePaginationConfig } from 'antd';
 import { ColumnsType } from 'antd/es/table';
 import { FilterValue, SorterResult } from 'antd/es/table/interface';
-import { Tool } from '../inventory-api';
+import { Tool } from '../api';
 
 export interface IInventoryTableBodyProps {
   columns: ColumnsType<Tool>;

@@ -5,36 +5,13 @@ import { IInventoryPaginationProps } from '../interfaces/IInventoryPaginationPro
 const { Text } = Typography;
 
 /**
- * InventoryPagination - A pagination component with summary display for inventory tables
+ * `InventoryPagination` - A pagination component with summary display for inventory tables
  *
  * This component provides pagination controls and displays a summary of the current
  * data range being viewed. It's designed specifically for inventory management interfaces
  * and integrates seamlessly with Ant Design's Pagination component.
  *
  * @component
- * @example
- * ```tsx
- * const handlePaginationChange = (page: number, pageSize?: number) => {
- *   setPagination(prev => ({
- *     ...prev,
- *     current: page,
- *     pageSize: pageSize || prev.pageSize
- *   }));
- * };
- *
- * const paginationOptions = {
- *   current: 1,
- *   pageSize: 25,
- *   total: 150,
- *   showSizeChanger: true,
- *   showQuickJumper: true
- * };
- *
- * <InventoryPagination
- *   pagination={paginationOptions}
- *   handlePaginationChange={handlePaginationChange}
- * />
- * ```
  *
  * @param props - The component props
  * @param props.pagination - Current pagination state containing page info and totals

@@ -2,7 +2,7 @@ import { screen, waitFor } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import EmployeeSelector from '../src/components/EmployeeSelector';
-import { MockInventorySystem, type Employee, type EmployeeId } from '../src/inventory-api';
+import { InventoryAPI, type Employee, type EmployeeId } from '../src/api';
 
 describe('EmployeeSelector', () => {
   const mockEmployees: Record<EmployeeId, Employee> = {
@@ -11,12 +11,12 @@ describe('EmployeeSelector', () => {
     E3: { id: 'E3', name: 'Bob Johnson' },
   };
 
-  let mockInventorySystem: MockInventorySystem;
+  let InventoryAPI: InventoryAPI;
   let mockOnChange: jest.Mock;
   let mockOnSelect: jest.Mock;
 
   beforeEach(() => {
-    mockInventorySystem = new MockInventorySystem({}, mockEmployees, 0);
+    InventoryAPI = new InventoryAPI({}, mockEmployees, 0);
     mockOnChange = jest.fn();
     mockOnSelect = jest.fn();
   });
@@ -24,7 +24,7 @@ describe('EmployeeSelector', () => {
   it('renders with placeholder text', () => {
     render(
       <EmployeeSelector
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -37,7 +37,7 @@ describe('EmployeeSelector', () => {
   it('renders with custom placeholder', () => {
     render(
       <EmployeeSelector
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -53,7 +53,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -77,7 +77,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -108,7 +108,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}
@@ -127,7 +127,7 @@ describe('EmployeeSelector', () => {
 
     render(
       <EmployeeSelector
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         value=""
         onChange={mockOnChange}
         onSelect={mockOnSelect}

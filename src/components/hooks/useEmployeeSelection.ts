@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import { useCallback } from 'react';
+import { Employee } from '../../api';
 import { IEditingState } from '../../interfaces/IEditingState';
-import { Employee } from '../../inventory-api';
 
 export interface UseEmployeeSelectionResult {
   handleEmployeeSelect: (

@@ -1,34 +1,34 @@
 import { message } from 'antd';
 import dayjs from 'dayjs';
 import { useCallback } from 'react';
+import { InventoryAPI, Tool } from '../../api';
 import { IEditingState } from '../../interfaces/IEditingState';
-import { MockInventorySystem, Tool } from '../../inventory-api';
 import { isCalibrationExpired } from '../CalibrationStatus';
 
 export interface UseToolAssignmentResult {
   handleEdit: (
     toolId: string,
-    inventory: MockInventorySystem,
+    inventory: InventoryAPI,
     setEditingState: (state: IEditingState | null) => void,
     setEmployeeSearchText: (text: string) => void,
     focusInput: () => void,
   ) => Promise<void>;
   handleUnassign: (
     toolId: string,
-    inventory: MockInventorySystem,
+    inventory: InventoryAPI,
     setSelectedTool: (tool: Tool | null) => void,
     setUnassignModalVisible: (visible: boolean) => void,
   ) => Promise<void>;
   handleSave: (
     editingState: IEditingState | null,
-    inventory: MockInventorySystem,
+    inventory: InventoryAPI,
     resetEditingState: () => void,
     loadTools: () => Promise<void>,
   ) => Promise<void>;
   handleCancel: (resetEditingState: () => void) => void;
   handleUnassignConfirm: (
     selectedTool: Tool | null,
-    inventory: MockInventorySystem,
+    inventory: InventoryAPI,
     resetUnassignState: () => void,
     loadTools: () => Promise<void>,
   ) => Promise<void>;
@@ -43,7 +43,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
   const handleEdit = useCallback(
     async (
       toolId: string,
-      inventory: MockInventorySystem,
+      inventory: InventoryAPI,
       setEditingState: (state: IEditingState | null) => void,
       setEmployeeSearchText: (text: string) => void,
       focusInput: () => void,
@@ -85,7 +85,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
   const handleUnassign = useCallback(
     async (
       toolId: string,
-      inventory: MockInventorySystem,
+      inventory: InventoryAPI,
       setSelectedTool: (tool: Tool | null) => void,
       setUnassignModalVisible: (visible: boolean) => void,
     ) => {
@@ -113,7 +113,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
   const handleSave = useCallback(
     async (
       editingState: IEditingState | null,
-      inventory: MockInventorySystem,
+      inventory: InventoryAPI,
       resetEditingState: () => void,
       loadTools: () => Promise<void>,
     ) => {
@@ -136,6 +136,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
           if (result.ok) {
             message.success('Tool assigned successfully');
           } else {
+            message.error(`Assignment failed: ${result.error}`);
             return;
           }
         } else if (isReassignment) {
@@ -147,6 +148,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
           if (result.ok) {
             message.success('Tool reassigned successfully');
           } else {
+            message.error(`Reassignment failed: ${result.error}`);
             return;
           }
         } else if (isUnassignment) {
@@ -156,6 +158,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
           if (result.ok) {
             message.success('Tool unassigned successfully');
           } else {
+            message.error(`Unassignment failed: ${result.error}`);
             return;
           }
         }
@@ -176,7 +179,7 @@ export function useToolAssignment(): UseToolAssignmentResult {
   const handleUnassignConfirm = useCallback(
     async (
       selectedTool: Tool | null,
-      inventory: MockInventorySystem,
+      inventory: InventoryAPI,
       resetUnassignState: () => void,
       loadTools: () => Promise<void>,
     ) => {

@@ -2,40 +2,20 @@ import { DatePicker } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
 import dayjs from 'dayjs';
 import { useMemo } from 'react';
+import type { Tool } from '../api';
 import { IUseInventoryTableColumnsProps } from '../interfaces/IUseInventoryTableColumnsProps';
-import type { Tool } from '../inventory-api';
 import { CalibrationStatus, isCalibrationExpired } from './CalibrationStatus';
 import EditAction from './EditAction';
 import EmployeeSelector from './EmployeeSelector';
 
 /**
- * Custom React Hook: useInventoryTableColumns
+ * `useInventoryTableColumns`
  *
  * Creates and manages the column configuration for the inventory management table.
  * This hook encapsulates the complex logic for rendering different column types including
  * inline editing capabilities, employee assignment, calibration status, and actions.
  *
  * @hook
- * @example
- * ```tsx
- * const columns = useInventoryTableColumns({
- *   editingState,
- *   employeeSearchText,
- *   filteredEmployees,
- *   employeeMap,
- *   handleEmployeeSelect,
- *   handleEmployeeSearch,
- *   handleDateChange,
- *   handleEdit,
- *   handleSave,
- *   handleCancel,
- *   handleUnassign,
- *   inputRef,
- *   inventorySystem,
- * });
- *
- * return <Table columns={columns} dataSource={tools} />;
- * ```
  *
  * @param props - Hook configuration object
  * @param props.editingState - Current editing state containing tool ID and form data

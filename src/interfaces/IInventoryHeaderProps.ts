@@ -1,9 +1,9 @@
-import { MockInventorySystem } from '../inventory-api';
-import { TabType } from '../types/TabType';
+import { InventoryAPI } from '../api';
+import { TabType } from '../api/types/TabType';
 
 export interface IInventoryHeaderProps {
   activeTab: TabType;
   setActiveTab: (tab: TabType) => void;
-  inventory: MockInventorySystem;
+  inventory: InventoryAPI;
   setSearchText: (text: string) => void;
 }

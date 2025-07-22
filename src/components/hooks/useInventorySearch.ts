@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { TabType } from '../../types/TabType';
+import { TabType } from '../../api/types/TabType';
 
 export interface UseInventorySearchResult {
   activeTab: TabType;

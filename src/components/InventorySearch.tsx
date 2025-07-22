@@ -4,32 +4,13 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { IInventorySearchProps } from '../interfaces/IInventorySearchProps';
 
 /**
- * InventorySearch - A debounced search input component for filtering inventory tools
+ * `InventorySearch` - A debounced search input component for filtering inventory tools
  *
  * This component provides a search interface that debounces user input to prevent
  * excessive API calls while searching through inventory tools. It integrates with
  * Ant Design's Input component and provides real-time search functionality.
  *
  * @component
- * @example
- * ```tsx
- * const handleSearchResults = (results: Tool[]) => {
- *   setFilteredTools(results);
- * };
- *
- * const handleSearchChange = (value: string) => {
- *   console.log('Search value changed:', value);
- * };
- *
- * <InventorySearch
- *   inventorySystem={mockInventorySystem}
- *   onSearchResults={handleSearchResults}
- *   onSearchChange={handleSearchChange}
- *   placeholder="Search tools..."
- *   className="w-80"
- *   debounceMs={500}
- * />
- * ```
  *
  * @param props - The component props
  * @param props.inventorySystem - The inventory system instance used for searching tools

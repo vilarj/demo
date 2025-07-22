@@ -3,7 +3,7 @@ import React from 'react';
 import { IInventoryTableBodyProps } from '../interfaces/InventoryTableBodyProps';
 
 /**
- * InventoryTableBody Component
+ * `InventoryTableBody Component
  *
  * A specialized table component that renders the main inventory data display.
  * This component wraps Ant Design's Table with custom styling and configuration
@@ -11,15 +11,6 @@ import { IInventoryTableBodyProps } from '../interfaces/InventoryTableBodyProps'
  * sortable table with hover effects and professional dark header styling.
  *
  * @component
- * @example
- * ```tsx
- * <InventoryTableBody
- *   columns={tableColumns}
- *   tools={filteredTools}
- *   loading={isLoading}
- *   handleTableChange={onTableSortChange}
- * />
- * ```
  *
  * @param props - Component props
  * @param props.columns - Column configuration array defining table structure and behavior
@@ -28,9 +19,6 @@ import { IInventoryTableBodyProps } from '../interfaces/InventoryTableBodyProps'
  * @param props.handleTableChange - Callback function for handling table events (sorting, filtering)
  *
  * @returns JSX.Element representing the inventory data table
- *
- * @since 1.0.0
- * @author [Your Name/Team]
  *
  * @remarks
  * - Implements a functional component pattern for optimal performance

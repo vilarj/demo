@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Tool } from '../../inventory-api';
+import { Tool } from '../../api';
 
 export interface PaginationState {
   current: number;

@@ -2,9 +2,9 @@ import dayjs from 'dayjs';
 import type { BaseSelectRef } from 'rc-select';
 import type { RefObject } from 'react';
 import { useCallback, useEffect } from 'react';
+import { Employee, InventoryAPI, Tool } from '../../api';
+import { TabType } from '../../api/types/TabType';
 import { IEditingState } from '../../interfaces/IEditingState';
-import { Employee, MockInventorySystem, Tool } from '../../inventory-api';
-import { TabType } from '../../types/TabType';
 import { useEmployeeSelection } from './useEmployeeSelection';
 import { useInventoryData } from './useInventoryData';
 import { PaginationState, useInventoryPagination } from './useInventoryPagination';
@@ -76,7 +76,7 @@ export interface UseInventoryTableResult {
   sortOrder: 'asc' | 'desc';
   setSortOrder: (order: 'asc' | 'desc') => void;
   inputRef: RefObject<BaseSelectRef | null>;
-  inventory: MockInventorySystem;
+  inventory: InventoryAPI;
   loadTools: (resetPagination?: boolean) => Promise<void>;
   loadEmployees: () => Promise<void>;
   employeeMap: Record<string, Employee>;
@@ -165,7 +165,7 @@ export function useInventoryTable(): UseInventoryTableResult {
           uiHook.setEditingState(null);
           uiHook.setEmployeeSearchText('');
         },
-        () => loadTools(),
+        loadTools,
       ),
     [toolAssignmentHook, uiHook, dataHook.inventory, loadTools],
   );
@@ -188,7 +188,7 @@ export function useInventoryTable(): UseInventoryTableResult {
           uiHook.setUnassignModalVisible(false);
           uiHook.setSelectedTool(null);
         },
-        () => loadTools(),
+        loadTools,
       ),
     [toolAssignmentHook, uiHook, dataHook.inventory, loadTools],
   );

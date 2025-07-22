@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import { BaseSelectRef } from 'rc-select';
-import { MockInventorySystem } from '../inventory-api';
+import { InventoryAPI } from '../api';
 import { IEditingState } from './IEditingState';
 
 export interface IUseInventoryTableColumnsProps {
@@ -16,5 +16,5 @@ export interface IUseInventoryTableColumnsProps {
   handleCancel: () => void;
   handleUnassign: (toolId: string) => void;
   inputRef: React.RefObject<BaseSelectRef | null>;
-  inventorySystem: MockInventorySystem;
+  inventorySystem: InventoryAPI;
 }

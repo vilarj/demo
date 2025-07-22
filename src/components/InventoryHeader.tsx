@@ -5,7 +5,7 @@ import InventorySearch from './InventorySearch';
 import InventoryTabs from './InventoryTabs';
 
 /**
- * InventoryHeader renders the top section of the inventory page, including the tab selector and search bar.
+ * `InventoryHeader` renders the top section of the inventory page, including the tab selector and search bar.
  *
  * Props (from IInventoryHeaderProps):
  *   - activeTab: TabType - The currently selected tab

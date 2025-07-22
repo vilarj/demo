@@ -1,10 +1,10 @@
 import { Tabs } from 'antd';
 import React from 'react';
+import { TabType } from '../api/types/TabType';
 import { IInventoryTabsProps } from '../interfaces/IInventoryTabsProps';
-import { TabType } from '../types/TabType';
 
 /**
- * InventoryTabs Component
+ * `InventoryTabs` Component
  *
  * A navigation component that provides tab-based filtering for the inventory table.
  * Users can switch between different views to see all tools, only assigned tools,
@@ -12,22 +12,12 @@ import { TabType } from '../types/TabType';
  * custom styling for a consistent user experience.
  *
  * @component
- * @example
- * ```tsx
- * <InventoryTabs
- *   activeTab="all"
- *   onTabChange={(tab) => setActiveTab(tab)}
- * />
- * ```
  *
  * @param props - Component props
  * @param props.activeTab - The currently selected tab that determines which view is active
  * @param props.onTabChange - Callback function invoked when user selects a different tab
  *
  * @returns JSX.Element representing the tab navigation interface
- *
- * @since 1.0.0
- * @author [Your Name/Team]
  *
  * @remarks
  * - Uses React.memo for performance optimization to prevent unnecessary re-renders

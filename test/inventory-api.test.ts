@@ -1,9 +1,9 @@
-import type { EmployeeId, ISO8601Date, ToolId } from '../src/inventory-api';
-import { MockInventorySystem } from '../src/inventory-api';
+import type { EmployeeId, ISO8601Date, ToolId } from '../src/api';
+import { InventoryAPI } from '../src/api';
 
 const today = (): ISO8601Date => new Date().toISOString().split('T')[0] as ISO8601Date;
 
-describe('MockInventorySystem', () => {
+describe('InventoryAPI', () => {
   beforeAll(() => {
     jest.spyOn(Date.prototype, 'toISOString').mockReturnValue('2025-06-08T00:00:00.000Z');
   });
@@ -16,7 +16,7 @@ describe('MockInventorySystem', () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -40,7 +40,7 @@ describe('MockInventorySystem', () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -64,7 +64,7 @@ describe('MockInventorySystem', () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -91,7 +91,7 @@ describe('MockInventorySystem', () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -118,7 +118,7 @@ describe('MockInventorySystem', () => {
       const employeeId1: EmployeeId = 'E1';
       const employeeId2: EmployeeId = 'E2';
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -148,7 +148,7 @@ describe('MockInventorySystem', () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -176,7 +176,7 @@ describe('MockInventorySystem', () => {
     it('returns a deep clone of the tool if it exists', async () => {
       expect.hasAssertions();
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -201,7 +201,7 @@ describe('MockInventorySystem', () => {
 
     it('returns null if the tool does not exist', async () => {
       expect.hasAssertions();
-      const system = new MockInventorySystem({}, {}, 0);
+      const system = new InventoryAPI({}, {}, 0);
       const result = await system.getTool('T999' as ToolId);
       expect({ result }).toMatchSnapshot();
     });
@@ -211,7 +211,7 @@ describe('MockInventorySystem', () => {
     it('returns a deep clone of the employee if it exists', async () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {},
         {
           E1: { id: employeeId, name: 'Alice' },
@@ -229,7 +229,7 @@ describe('MockInventorySystem', () => {
 
     it('returns null if the employee does not exist', async () => {
       expect.hasAssertions();
-      const system = new MockInventorySystem({}, {}, 0);
+      const system = new InventoryAPI({}, {}, 0);
       const result = await system.getEmployee('E999' as EmployeeId);
       expect({ result }).toMatchSnapshot();
     });
@@ -239,7 +239,7 @@ describe('MockInventorySystem', () => {
     it('returns a deep clone of all tools', async () => {
       expect.hasAssertions();
       const toolId: ToolId = 'T1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {
           T1: {
             id: toolId,
@@ -264,16 +264,16 @@ describe('MockInventorySystem', () => {
 
     it('returns an empty array if there are no tools', async () => {
       expect.hasAssertions();
-      const system = new MockInventorySystem({}, {}, 0);
+      const system = new InventoryAPI({}, {}, 0);
       const result = await system.getTools();
       expect({ result }).toMatchSnapshot();
     });
   });
 
   describe('getTools (filtering)', () => {
-    let system: MockInventorySystem;
+    let system: InventoryAPI;
     beforeAll(() => {
-      system = new MockInventorySystem(
+      system = new InventoryAPI(
         {
           T1: {
             id: 'T1',
@@ -326,7 +326,7 @@ describe('MockInventorySystem', () => {
     it('returns a deep clone of all employees', async () => {
       expect.hasAssertions();
       const employeeId: EmployeeId = 'E1';
-      const system = new MockInventorySystem(
+      const system = new InventoryAPI(
         {},
         {
           E1: { id: employeeId, name: 'Alice' },
@@ -342,7 +342,7 @@ describe('MockInventorySystem', () => {
 
     it('returns an empty array if there are no employees', async () => {
       expect.hasAssertions();
-      const system = new MockInventorySystem({}, {}, 0);
+      const system = new InventoryAPI({}, {}, 0);
       const result = await system.getEmployees();
       expect({ result }).toMatchSnapshot();
     });

@@ -2,7 +2,7 @@ import { screen, waitFor } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import InventorySearch from '../src/components/InventorySearch';
-import { MockInventorySystem, type Tool, type ToolId } from '../src/inventory-api';
+import { InventoryAPI, type Tool, type ToolId } from '../src/api';
 
 describe('InventorySearch', () => {
   const mockTools: Record<ToolId, Tool> = {
@@ -26,18 +26,18 @@ describe('InventorySearch', () => {
     },
   };
 
-  let mockInventorySystem: MockInventorySystem;
+  let InventoryAPI: InventoryAPI;
   let mockOnSearchResults: jest.Mock;
   let mockOnSearchChange: jest.Mock;
 
   beforeEach(() => {
-    mockInventorySystem = new MockInventorySystem(mockTools, {}, 0);
+    InventoryAPI = new InventoryAPI(mockTools, {}, 0);
     mockOnSearchResults = jest.fn();
     mockOnSearchChange = jest.fn();
   });
 
   it('renders with default placeholder', () => {
-    render(<InventorySearch inventorySystem={mockInventorySystem} onSearchResults={mockOnSearchResults} />);
+    render(<InventorySearch inventorySystem={InventoryAPI} onSearchResults={mockOnSearchResults} />);
 
     expect(screen.getByPlaceholderText('Search')).toBeInTheDocument();
   });
@@ -45,7 +45,7 @@ describe('InventorySearch', () => {
   it('renders with custom placeholder', () => {
     render(
       <InventorySearch
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         onSearchResults={mockOnSearchResults}
         placeholder="Search tools..."
       />,
@@ -59,7 +59,7 @@ describe('InventorySearch', () => {
 
     render(
       <InventorySearch
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         onSearchResults={mockOnSearchResults}
         onSearchChange={mockOnSearchChange}
       />,
@@ -75,7 +75,7 @@ describe('InventorySearch', () => {
     const user = userEvent.setup();
 
     render(
-      <InventorySearch inventorySystem={mockInventorySystem} onSearchResults={mockOnSearchResults} debounceMs={0} />,
+      <InventorySearch inventorySystem={InventoryAPI} onSearchResults={mockOnSearchResults} debounceMs={0} />,
     );
 
     const input = screen.getByRole('searchbox');
@@ -90,7 +90,7 @@ describe('InventorySearch', () => {
     const user = userEvent.setup();
 
     render(
-      <InventorySearch inventorySystem={mockInventorySystem} onSearchResults={mockOnSearchResults} debounceMs={0} />,
+      <InventorySearch inventorySystem={InventoryAPI} onSearchResults={mockOnSearchResults} debounceMs={0} />,
     );
 
     const input = screen.getByRole('searchbox');
@@ -105,7 +105,7 @@ describe('InventorySearch', () => {
     const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
     const errorSystem = {
       search: jest.fn().mockRejectedValue(new Error('Search failed')),
-    } as unknown as MockInventorySystem;
+    } as unknown as InventoryAPI;
 
     const user = userEvent.setup();
 
@@ -125,7 +125,7 @@ describe('InventorySearch', () => {
   it('applies custom className', () => {
     const { container } = render(
       <InventorySearch
-        inventorySystem={mockInventorySystem}
+        inventorySystem={InventoryAPI}
         onSearchResults={mockOnSearchResults}
         className="custom-class"
       />,

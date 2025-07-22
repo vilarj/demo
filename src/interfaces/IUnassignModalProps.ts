@@ -1,4 +1,4 @@
-import { Employee, Tool } from '../inventory-api';
+import { Employee, Tool } from '../api';
 
 export interface IUnassignModalProps {
   visible: boolean;

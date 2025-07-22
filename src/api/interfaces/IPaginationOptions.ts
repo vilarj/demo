@@ -1,4 +1,4 @@
-import { Tool } from '../inventory-api';
+import { Tool } from '../types/ToolInventoryType';
 
 export interface IPaginationOptions {
   page: number;

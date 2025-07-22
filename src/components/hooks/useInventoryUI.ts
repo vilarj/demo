@@ -1,8 +1,8 @@
 import type { BaseSelectRef } from 'rc-select';
 import type { RefObject } from 'react';
 import { useCallback, useRef, useState } from 'react';
+import { Tool } from '../../api';
 import { IEditingState } from '../../interfaces/IEditingState';
-import { Tool } from '../../inventory-api';
 
 export interface UseInventoryUIResult {
   editingState: IEditingState | null;

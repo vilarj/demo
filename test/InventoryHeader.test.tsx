@@ -2,7 +2,7 @@ import { screen } from '@testing-library/dom';
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import InventoryHeader from '../src/components/InventoryHeader';
-import { MockInventorySystem } from '../src/inventory-api';
+import { InventoryAPI } from '../src/api';
 
 import { TabType } from '../src/types/TabType';
 interface MockInventoryTabsProps {
@@ -44,12 +44,12 @@ jest.mock('../src/components/InventorySearch', () => {
 });
 
 describe('InventoryHeader', () => {
-  let mockInventory: MockInventorySystem;
+  let mockInventory: InventoryAPI;
   let mockSetActiveTab: jest.Mock;
   let mockSetSearchText: jest.Mock;
 
   beforeEach(() => {
-    mockInventory = new MockInventorySystem({}, {}, 0);
+    mockInventory = new InventoryAPI({}, {}, 0);
     mockSetActiveTab = jest.fn();
     mockSetSearchText = jest.fn();
   });

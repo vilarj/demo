@@ -1,52 +1,19 @@
 import { AutoComplete, Flex, Typography } from 'antd';
 import type { BaseSelectRef } from 'rc-select';
 import { forwardRef, useCallback, useEffect, useMemo, useState } from 'react';
+import { Employee } from '../api';
 import { IEmployeeSelectorProps } from '../interfaces/IEmployeeSelectorProps';
-import { Employee } from '../inventory-api';
 
 const { Text } = Typography;
 
 /**
- * EmployeeSelector - An autocomplete input component for searching and selecting employees
+ * `EmployeeSelector` - An autocomplete input component for searching and selecting employees
  *
  * This component provides a debounced search interface for finding employees by name or ID.
  * It displays employees in a dropdown with both name and ID visible, and supports keyboard
  * navigation. The component fetches all employees when empty and searches when text is entered.
  *
  * @component
- * @example
- * ```tsx
- * const [selectedEmployee, setSelectedEmployee] = useState('');
- * const [inputValue, setInputValue] = useState('');
- * const employeeSelectorRef = useRef<BaseSelectRef>(null);
- *
- * const handleEmployeeChange = (value: string) => {
- *   setInputValue(value);
- * };
- *
- * const handleEmployeeSelect = (value: string) => {
- *   setSelectedEmployee(value);
- *   console.log('Selected employee ID:', value);
- * };
- *
- * const handleKeyDown = (event: React.KeyboardEvent) => {
- *   if (event.key === 'Enter') {
- *     // Handle enter key press
- *   }
- * };
- *
- * <EmployeeSelector
- *   ref={employeeSelectorRef}
- *   inventorySystem={mockInventorySystem}
- *   value={inputValue}
- *   onChange={handleEmployeeChange}
- *   onSelect={handleEmployeeSelect}
- *   onKeyDown={handleKeyDown}
- *   placeholder="Find employee..."
- *   style={{ width: 300 }}
- *   debounceMs={500}
- * />
- * ```
  *
  * @param props - The component props
  * @param props.inventorySystem - The inventory system instance for fetching/searching employees
